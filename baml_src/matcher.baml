@@ -163,3 +163,36 @@ function GenerateAdversarialCases(target_model: string, n_cases: int) -> Adversa
     {{ ctx.output_format }}
   "#
 }
+
+// ── Stage 2: Composed Verdict ───────────────────────────────────────
+
+enum HireRecommendation {
+  STRONG_HIRE
+  HIRE
+  NO_HIRE
+  STRONG_NO_HIRE
+}
+
+class CandidateVerdict {
+  overall_score float @description("0.0 to 1.0, weighted assessment")
+  top_strengths string[] @description("Exactly 3 strongest match areas")
+  top_gaps string[] @description("Exactly 3 most significant gaps")
+  hire_recommendation HireRecommendation
+  one_line_summary string @description("Single sentence verdict, max 25 words")
+}
+
+function GenerateVerdict(match_result: MatchResult) -> CandidateVerdict {
+  client Haiku
+  prompt #"
+    You are a hiring manager reviewing a structured match analysis between a job description and a candidate's resume. Produce a final hiring verdict.
+
+    MATCH ANALYSIS:
+    Coverage score: {{ match_result.coverage_score }}
+    Individual matches: {{ match_result.matches }}
+    Missing requirements: {{ match_result.missing_requirements }}
+
+    Synthesize this into a clear verdict with overall score, top 3 strengths, top 3 gaps, hire recommendation, and one-line summary.
+
+    {{ ctx.output_format }}
+  "#
+}
