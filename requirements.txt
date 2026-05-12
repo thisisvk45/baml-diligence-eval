@@ -1,0 +1,4 @@
+baml-py==0.222.0
+openai
+pydantic
+python-dotenv
