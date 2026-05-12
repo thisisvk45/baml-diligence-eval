@@ -1,0 +1,2796 @@
+config,run,case,approach,latency,parse_ok,matches,coverage,error
+original-Haiku,1,NormalMatch,BAML,4.011,True,4,1.0,
+original-Haiku,1,NormalMatch,Pydantic,4.719,True,5,1.0,
+original-Haiku,1,EmptyBullets,BAML,3.527,True,4,0.9,
+original-Haiku,1,EmptyBullets,Pydantic,4.484,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,1,TerseSAP,BAML,2.083,True,2,1.0,
+original-Haiku,1,TerseSAP,Pydantic,1.722,True,2,1.0,
+original-Haiku,2,NormalMatch,BAML,2.56,True,4,1.0,
+original-Haiku,2,NormalMatch,Pydantic,3.267,True,5,1.0,
+original-Haiku,2,EmptyBullets,BAML,3.379,True,4,0.9,
+original-Haiku,2,EmptyBullets,Pydantic,4.009,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,2,TerseSAP,BAML,1.932,True,2,1.0,
+original-Haiku,2,TerseSAP,Pydantic,1.545,True,2,1.0,
+original-Haiku,3,NormalMatch,BAML,3.887,True,5,1.0,
+original-Haiku,3,NormalMatch,Pydantic,4.818,True,5,1.0,
+original-Haiku,3,EmptyBullets,BAML,3.707,True,4,0.95,
+original-Haiku,3,EmptyBullets,Pydantic,4.976,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,3,TerseSAP,BAML,2.223,True,2,1.0,
+original-Haiku,3,TerseSAP,Pydantic,1.923,True,2,1.0,
+original-Haiku,4,NormalMatch,BAML,2.933,True,4,1.0,
+original-Haiku,4,NormalMatch,Pydantic,3.946,True,5,1.0,
+original-Haiku,4,EmptyBullets,BAML,3.271,True,4,0.9,
+original-Haiku,4,EmptyBullets,Pydantic,4.444,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,4,TerseSAP,BAML,1.727,True,2,1.0,
+original-Haiku,4,TerseSAP,Pydantic,1.966,True,2,1.0,
+original-Haiku,5,NormalMatch,BAML,3.356,True,4,1.0,
+original-Haiku,5,NormalMatch,Pydantic,3.674,True,5,1.0,
+original-Haiku,5,EmptyBullets,BAML,2.688,True,4,0.9,
+original-Haiku,5,EmptyBullets,Pydantic,4.473,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sult', 'type': 'object'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,5,TerseSAP,BAML,2.032,True,2,1.0,
+original-Haiku,5,TerseSAP,Pydantic,1.892,True,2,1.0,
+original-Haiku,6,NormalMatch,BAML,4.065,True,5,1.0,
+original-Haiku,6,NormalMatch,Pydantic,3.64,True,5,1.0,
+original-Haiku,6,EmptyBullets,BAML,3.072,True,4,0.9,
+original-Haiku,6,EmptyBullets,Pydantic,3.675,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,6,TerseSAP,BAML,1.876,True,2,1.0,
+original-Haiku,6,TerseSAP,Pydantic,1.793,True,2,1.0,
+original-Haiku,7,NormalMatch,BAML,4.171,True,5,1.0,
+original-Haiku,7,NormalMatch,Pydantic,4.393,True,5,1.0,
+original-Haiku,7,EmptyBullets,BAML,4.88,True,4,0.9,
+original-Haiku,7,EmptyBullets,Pydantic,3.981,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,7,TerseSAP,BAML,1.805,True,2,1.0,
+original-Haiku,7,TerseSAP,Pydantic,2.091,True,2,1.0,
+original-Haiku,8,NormalMatch,BAML,3.421,True,4,1.0,
+original-Haiku,8,NormalMatch,Pydantic,5.59,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,8,EmptyBullets,BAML,3.502,True,4,0.9,
+original-Haiku,8,EmptyBullets,Pydantic,3.916,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,8,TerseSAP,BAML,2.014,True,2,1.0,
+original-Haiku,8,TerseSAP,Pydantic,1.711,True,2,1.0,
+original-Haiku,9,NormalMatch,BAML,3.747,True,4,1.0,
+original-Haiku,9,NormalMatch,Pydantic,4.92,True,5,1.0,
+original-Haiku,9,EmptyBullets,BAML,3.371,True,4,0.9,
+original-Haiku,9,EmptyBullets,Pydantic,3.674,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,9,TerseSAP,BAML,1.814,True,2,1.0,
+original-Haiku,9,TerseSAP,Pydantic,1.727,True,2,1.0,
+original-Haiku,10,NormalMatch,BAML,3.393,True,5,1.0,
+original-Haiku,10,NormalMatch,Pydantic,4.823,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,10,EmptyBullets,BAML,4.009,True,4,0.95,
+original-Haiku,10,EmptyBullets,Pydantic,4.127,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,10,TerseSAP,BAML,1.949,True,2,1.0,
+original-Haiku,10,TerseSAP,Pydantic,1.533,True,2,1.0,
+original-Haiku,11,NormalMatch,BAML,3.845,True,4,1.0,
+original-Haiku,11,NormalMatch,Pydantic,3.561,True,5,1.0,
+original-Haiku,11,EmptyBullets,BAML,3.359,True,4,0.9,
+original-Haiku,11,EmptyBullets,Pydantic,4.839,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,11,TerseSAP,BAML,1.99,True,2,1.0,
+original-Haiku,11,TerseSAP,Pydantic,1.626,True,2,1.0,
+original-Haiku,12,NormalMatch,BAML,2.838,True,4,1.0,
+original-Haiku,12,NormalMatch,Pydantic,4.267,True,5,1.0,
+original-Haiku,12,EmptyBullets,BAML,3.383,True,4,0.9,
+original-Haiku,12,EmptyBullets,Pydantic,4.228,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,12,TerseSAP,BAML,2.352,True,2,1.0,
+original-Haiku,12,TerseSAP,Pydantic,1.911,True,2,1.0,
+original-Haiku,13,NormalMatch,BAML,3.889,True,4,1.0,
+original-Haiku,13,NormalMatch,Pydantic,3.627,True,5,1.0,
+original-Haiku,13,EmptyBullets,BAML,3.082,True,4,0.9,
+original-Haiku,13,EmptyBullets,Pydantic,4.644,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,13,TerseSAP,BAML,2.08,True,2,1.0,
+original-Haiku,13,TerseSAP,Pydantic,2.12,True,2,1.0,
+original-Haiku,14,NormalMatch,BAML,3.635,True,5,1.0,
+original-Haiku,14,NormalMatch,Pydantic,6.335,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,14,EmptyBullets,BAML,2.953,True,4,0.95,
+original-Haiku,14,EmptyBullets,Pydantic,3.928,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,14,TerseSAP,BAML,1.526,True,2,1.0,
+original-Haiku,14,TerseSAP,Pydantic,2.128,True,2,1.0,
+original-Haiku,15,NormalMatch,BAML,3.948,True,5,1.0,
+original-Haiku,15,NormalMatch,Pydantic,4.494,True,5,1.0,
+original-Haiku,15,EmptyBullets,BAML,2.858,True,4,0.9,
+original-Haiku,15,EmptyBullets,Pydantic,4.555,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,15,TerseSAP,BAML,1.726,True,2,1.0,
+original-Haiku,15,TerseSAP,Pydantic,1.707,True,2,1.0,
+original-Haiku,16,NormalMatch,BAML,4.911,True,4,1.0,
+original-Haiku,16,NormalMatch,Pydantic,3.977,True,5,1.0,
+original-Haiku,16,EmptyBullets,BAML,3.319,True,4,0.9,
+original-Haiku,16,EmptyBullets,Pydantic,4.361,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,16,TerseSAP,BAML,1.663,True,2,1.0,
+original-Haiku,16,TerseSAP,Pydantic,1.91,True,2,1.0,
+original-Haiku,17,NormalMatch,BAML,3.895,True,5,1.0,
+original-Haiku,17,NormalMatch,Pydantic,3.41,True,5,1.0,
+original-Haiku,17,EmptyBullets,BAML,3.651,True,4,0.9,
+original-Haiku,17,EmptyBullets,Pydantic,6.344,False,0,0.0,"1 validation error for MatchResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Here is the JSON object ...rovided resume bullets.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+original-Haiku,17,TerseSAP,BAML,2.061,True,2,1.0,
+original-Haiku,17,TerseSAP,Pydantic,2.195,True,2,1.0,
+original-Haiku,18,NormalMatch,BAML,2.521,True,4,1.0,
+original-Haiku,18,NormalMatch,Pydantic,4.803,True,5,1.0,
+original-Haiku,18,EmptyBullets,BAML,2.788,True,4,0.9,
+original-Haiku,18,EmptyBullets,Pydantic,4.164,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,18,TerseSAP,BAML,1.555,True,2,1.0,
+original-Haiku,18,TerseSAP,Pydantic,1.748,True,2,1.0,
+original-Haiku,19,NormalMatch,BAML,3.361,True,5,1.0,
+original-Haiku,19,NormalMatch,Pydantic,3.349,True,4,1.0,
+original-Haiku,19,EmptyBullets,BAML,3.227,True,4,0.9,
+original-Haiku,19,EmptyBullets,Pydantic,3.781,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,19,TerseSAP,BAML,2.198,True,2,1.0,
+original-Haiku,19,TerseSAP,Pydantic,1.912,True,2,1.0,
+original-Haiku,20,NormalMatch,BAML,4.232,True,5,1.0,
+original-Haiku,20,NormalMatch,Pydantic,4.744,True,5,1.0,
+original-Haiku,20,EmptyBullets,BAML,2.543,True,4,0.9,
+original-Haiku,20,EmptyBullets,Pydantic,3.237,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,20,TerseSAP,BAML,1.794,True,2,1.0,
+original-Haiku,20,TerseSAP,Pydantic,1.791,True,2,1.0,
+original-Haiku,21,NormalMatch,BAML,3.939,True,5,1.0,
+original-Haiku,21,NormalMatch,Pydantic,7.399,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,21,EmptyBullets,BAML,3.1,True,4,0.9,
+original-Haiku,21,EmptyBullets,Pydantic,5.934,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,21,TerseSAP,BAML,2.055,True,2,1.0,
+original-Haiku,21,TerseSAP,Pydantic,1.531,True,2,1.0,
+original-Haiku,22,NormalMatch,BAML,3.163,True,4,1.0,
+original-Haiku,22,NormalMatch,Pydantic,4.047,True,5,1.0,
+original-Haiku,22,EmptyBullets,BAML,3.618,True,4,0.9,
+original-Haiku,22,EmptyBullets,Pydantic,4.046,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,22,TerseSAP,BAML,2.205,True,2,1.0,
+original-Haiku,22,TerseSAP,Pydantic,2.313,True,2,1.0,
+original-Haiku,23,NormalMatch,BAML,2.772,True,4,1.0,
+original-Haiku,23,NormalMatch,Pydantic,3.884,True,5,1.0,
+original-Haiku,23,EmptyBullets,BAML,2.468,True,4,0.9,
+original-Haiku,23,EmptyBullets,Pydantic,5.609,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,23,TerseSAP,BAML,1.815,True,2,1.0,
+original-Haiku,23,TerseSAP,Pydantic,6.373,True,2,1.0,
+original-Haiku,24,NormalMatch,BAML,2.407,True,4,1.0,
+original-Haiku,24,NormalMatch,Pydantic,5.005,True,5,1.0,
+original-Haiku,24,EmptyBullets,BAML,3.178,True,4,0.95,
+original-Haiku,24,EmptyBullets,Pydantic,3.857,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...CSS/HTML proficiency']}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...CSS/HTML proficiency']}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...CSS/HTML proficiency']}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,24,TerseSAP,BAML,4.883,True,2,1.0,
+original-Haiku,24,TerseSAP,Pydantic,1.963,True,2,1.0,
+original-Haiku,25,NormalMatch,BAML,4.186,True,5,1.0,
+original-Haiku,25,NormalMatch,Pydantic,4.16,True,5,1.0,
+original-Haiku,25,EmptyBullets,BAML,4.132,True,4,0.9,
+original-Haiku,25,EmptyBullets,Pydantic,4.834,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,25,TerseSAP,BAML,2.324,True,2,1.0,
+original-Haiku,25,TerseSAP,Pydantic,2.094,True,2,1.0,
+original-Haiku,26,NormalMatch,BAML,5.346,True,4,1.0,
+original-Haiku,26,NormalMatch,Pydantic,5.105,True,5,1.0,
+original-Haiku,26,EmptyBullets,BAML,3.5,True,4,0.9,
+original-Haiku,26,EmptyBullets,Pydantic,4.207,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,26,TerseSAP,BAML,1.958,True,2,1.0,
+original-Haiku,26,TerseSAP,Pydantic,2.171,True,2,1.0,
+original-Haiku,27,NormalMatch,BAML,3.223,True,5,1.0,
+original-Haiku,27,NormalMatch,Pydantic,4.425,True,5,1.0,
+original-Haiku,27,EmptyBullets,BAML,2.578,True,4,0.9,
+original-Haiku,27,EmptyBullets,Pydantic,6.203,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,27,TerseSAP,BAML,1.776,True,2,1.0,
+original-Haiku,27,TerseSAP,Pydantic,1.699,True,2,1.0,
+original-Haiku,28,NormalMatch,BAML,3.366,True,4,1.0,
+original-Haiku,28,NormalMatch,Pydantic,3.876,True,5,1.0,
+original-Haiku,28,EmptyBullets,BAML,3.582,True,4,0.95,
+original-Haiku,28,EmptyBullets,Pydantic,6.102,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,28,TerseSAP,BAML,2.168,True,2,1.0,
+original-Haiku,28,TerseSAP,Pydantic,1.567,True,2,1.0,
+original-Haiku,29,NormalMatch,BAML,3.165,True,5,1.0,
+original-Haiku,29,NormalMatch,Pydantic,5.931,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,29,EmptyBullets,BAML,3.397,True,4,0.9,
+original-Haiku,29,EmptyBullets,Pydantic,4.526,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,29,TerseSAP,BAML,1.899,True,2,1.0,
+original-Haiku,29,TerseSAP,Pydantic,2.018,True,2,1.0,
+original-Haiku,30,NormalMatch,BAML,3.232,True,4,1.0,
+original-Haiku,30,NormalMatch,Pydantic,4.59,True,5,1.0,
+original-Haiku,30,EmptyBullets,BAML,3.909,True,4,0.9,
+original-Haiku,30,EmptyBullets,Pydantic,5.056,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,30,TerseSAP,BAML,1.558,True,2,1.0,
+original-Haiku,30,TerseSAP,Pydantic,1.778,True,2,1.0,
+original-Haiku,31,NormalMatch,BAML,4.309,True,5,1.0,
+original-Haiku,31,NormalMatch,Pydantic,3.431,True,5,1.0,
+original-Haiku,31,EmptyBullets,BAML,3.202,True,4,0.9,
+original-Haiku,31,EmptyBullets,Pydantic,3.378,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,31,TerseSAP,BAML,1.517,True,2,1.0,
+original-Haiku,31,TerseSAP,Pydantic,2.056,True,2,1.0,
+original-Haiku,32,NormalMatch,BAML,2.967,True,4,1.0,
+original-Haiku,32,NormalMatch,Pydantic,3.248,True,5,1.0,
+original-Haiku,32,EmptyBullets,BAML,3.377,True,4,0.95,
+original-Haiku,32,EmptyBullets,Pydantic,4.33,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,32,TerseSAP,BAML,1.993,True,2,1.0,
+original-Haiku,32,TerseSAP,Pydantic,1.793,True,2,1.0,
+original-Haiku,33,NormalMatch,BAML,4.12,True,5,1.0,
+original-Haiku,33,NormalMatch,Pydantic,4.098,True,5,1.0,
+original-Haiku,33,EmptyBullets,BAML,3.385,True,4,0.95,
+original-Haiku,33,EmptyBullets,Pydantic,5.819,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,33,TerseSAP,BAML,2.033,True,2,1.0,
+original-Haiku,33,TerseSAP,Pydantic,1.908,True,2,1.0,
+original-Haiku,34,NormalMatch,BAML,3.82,True,5,1.0,
+original-Haiku,34,NormalMatch,Pydantic,8.923,True,5,1.0,
+original-Haiku,34,EmptyBullets,BAML,2.924,True,4,0.9,
+original-Haiku,34,EmptyBullets,Pydantic,4.14,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,34,TerseSAP,BAML,1.922,True,2,1.0,
+original-Haiku,34,TerseSAP,Pydantic,1.549,True,2,1.0,
+original-Haiku,35,NormalMatch,BAML,3.721,True,5,1.0,
+original-Haiku,35,NormalMatch,Pydantic,3.956,True,5,1.0,
+original-Haiku,35,EmptyBullets,BAML,2.735,True,3,0.9,
+original-Haiku,35,EmptyBullets,Pydantic,4.082,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,35,TerseSAP,BAML,1.758,True,2,1.0,
+original-Haiku,35,TerseSAP,Pydantic,1.56,True,2,1.0,
+original-Haiku,36,NormalMatch,BAML,4.182,True,5,1.0,
+original-Haiku,36,NormalMatch,Pydantic,6.713,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,36,EmptyBullets,BAML,2.949,True,4,0.9,
+original-Haiku,36,EmptyBullets,Pydantic,4.886,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,36,TerseSAP,BAML,2.065,True,2,1.0,
+original-Haiku,36,TerseSAP,Pydantic,1.418,True,2,1.0,
+original-Haiku,37,NormalMatch,BAML,3.146,True,4,1.0,
+original-Haiku,37,NormalMatch,Pydantic,4.431,True,5,1.0,
+original-Haiku,37,EmptyBullets,BAML,3.006,True,4,0.9,
+original-Haiku,37,EmptyBullets,Pydantic,3.57,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,37,TerseSAP,BAML,1.5,True,2,1.0,
+original-Haiku,37,TerseSAP,Pydantic,1.821,True,2,1.0,
+original-Haiku,38,NormalMatch,BAML,3.915,True,5,1.0,
+original-Haiku,38,NormalMatch,Pydantic,4.526,True,5,1.0,
+original-Haiku,38,EmptyBullets,BAML,5.026,True,4,0.9,
+original-Haiku,38,EmptyBullets,Pydantic,4.302,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,38,TerseSAP,BAML,2.366,True,2,1.0,
+original-Haiku,38,TerseSAP,Pydantic,1.682,True,2,1.0,
+original-Haiku,39,NormalMatch,BAML,4.615,True,5,1.0,
+original-Haiku,39,NormalMatch,Pydantic,4.707,True,5,1.0,
+original-Haiku,39,EmptyBullets,BAML,3.573,True,4,0.9,
+original-Haiku,39,EmptyBullets,Pydantic,4.429,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,39,TerseSAP,BAML,1.734,True,2,1.0,
+original-Haiku,39,TerseSAP,Pydantic,1.71,True,2,1.0,
+original-Haiku,40,NormalMatch,BAML,3.604,True,4,1.0,
+original-Haiku,40,NormalMatch,Pydantic,7.593,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,40,EmptyBullets,BAML,4.434,True,4,0.9,
+original-Haiku,40,EmptyBullets,Pydantic,3.771,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,40,TerseSAP,BAML,2.206,True,2,1.0,
+original-Haiku,40,TerseSAP,Pydantic,1.96,True,2,1.0,
+original-Haiku,41,NormalMatch,BAML,4.039,True,5,1.0,
+original-Haiku,41,NormalMatch,Pydantic,4.299,True,5,1.0,
+original-Haiku,41,EmptyBullets,BAML,2.943,True,4,0.9,
+original-Haiku,41,EmptyBullets,Pydantic,4.548,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,41,TerseSAP,BAML,1.892,True,2,1.0,
+original-Haiku,41,TerseSAP,Pydantic,1.578,True,2,1.0,
+original-Haiku,42,NormalMatch,BAML,4.257,True,5,1.0,
+original-Haiku,42,NormalMatch,Pydantic,5.887,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,42,EmptyBullets,BAML,3.433,True,4,0.9,
+original-Haiku,42,EmptyBullets,Pydantic,7.16,False,0,0.0,"1 validation error for MatchResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Here is the JSON object ...rovided resume bullets.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+original-Haiku,42,TerseSAP,BAML,1.947,True,2,1.0,
+original-Haiku,42,TerseSAP,Pydantic,1.421,True,2,1.0,
+original-Haiku,43,NormalMatch,BAML,3.509,True,4,1.0,
+original-Haiku,43,NormalMatch,Pydantic,3.934,True,5,1.0,
+original-Haiku,43,EmptyBullets,BAML,3.857,True,4,0.9,
+original-Haiku,43,EmptyBullets,Pydantic,3.378,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,43,TerseSAP,BAML,1.833,True,2,1.0,
+original-Haiku,43,TerseSAP,Pydantic,1.948,True,2,1.0,
+original-Haiku,44,NormalMatch,BAML,4.893,True,5,1.0,
+original-Haiku,44,NormalMatch,Pydantic,5.293,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,44,EmptyBullets,BAML,2.832,True,4,0.9,
+original-Haiku,44,EmptyBullets,Pydantic,3.961,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,44,TerseSAP,BAML,1.909,True,2,1.0,
+original-Haiku,44,TerseSAP,Pydantic,1.771,True,2,1.0,
+original-Haiku,45,NormalMatch,BAML,3.528,True,4,1.0,
+original-Haiku,45,NormalMatch,Pydantic,4.408,True,5,1.0,
+original-Haiku,45,EmptyBullets,BAML,4.863,True,4,0.9,
+original-Haiku,45,EmptyBullets,Pydantic,4.4,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,45,TerseSAP,BAML,3.731,True,2,1.0,
+original-Haiku,45,TerseSAP,Pydantic,2.221,True,2,1.0,
+original-Haiku,46,NormalMatch,BAML,5.179,True,5,1.0,
+original-Haiku,46,NormalMatch,Pydantic,5.292,True,5,1.0,
+original-Haiku,46,EmptyBullets,BAML,4.193,True,4,0.9,
+original-Haiku,46,EmptyBullets,Pydantic,5.032,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,46,TerseSAP,BAML,2.005,True,2,1.0,
+original-Haiku,46,TerseSAP,Pydantic,1.491,True,2,1.0,
+original-Haiku,47,NormalMatch,BAML,4.214,True,5,1.0,
+original-Haiku,47,NormalMatch,Pydantic,4.226,True,5,1.0,
+original-Haiku,47,EmptyBullets,BAML,4.66,True,4,0.9,
+original-Haiku,47,EmptyBullets,Pydantic,5.938,False,0,0.0,"1 validation error for MatchResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Here is the JSON object ... by the resume bullets.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+original-Haiku,47,TerseSAP,BAML,1.881,True,2,1.0,
+original-Haiku,47,TerseSAP,Pydantic,1.529,True,2,1.0,
+original-Haiku,48,NormalMatch,BAML,3.359,True,5,1.0,
+original-Haiku,48,NormalMatch,Pydantic,7.013,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,48,EmptyBullets,BAML,2.735,True,4,0.9,
+original-Haiku,48,EmptyBullets,Pydantic,5.968,False,0,0.0,"1 validation error for MatchResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Here is the JSON object ...in the job description.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+original-Haiku,48,TerseSAP,BAML,1.953,True,2,1.0,
+original-Haiku,48,TerseSAP,Pydantic,1.879,True,2,1.0,
+original-Haiku,49,NormalMatch,BAML,2.968,True,4,1.0,
+original-Haiku,49,NormalMatch,Pydantic,4.232,True,5,1.0,
+original-Haiku,49,EmptyBullets,BAML,3.142,True,4,0.9,
+original-Haiku,49,EmptyBullets,Pydantic,3.82,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,49,TerseSAP,BAML,2.082,True,2,1.0,
+original-Haiku,49,TerseSAP,Pydantic,1.936,True,2,1.0,
+original-Haiku,50,NormalMatch,BAML,3.204,True,4,1.0,
+original-Haiku,50,NormalMatch,Pydantic,4.223,True,5,1.0,
+original-Haiku,50,EmptyBullets,BAML,4.436,True,4,0.9,
+original-Haiku,50,EmptyBullets,Pydantic,4.193,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,50,TerseSAP,BAML,2.179,True,2,1.0,
+original-Haiku,50,TerseSAP,Pydantic,1.609,True,2,1.0,
+original-Haiku,51,NormalMatch,BAML,5.689,True,5,1.0,
+original-Haiku,51,NormalMatch,Pydantic,4.751,True,5,1.0,
+original-Haiku,51,EmptyBullets,BAML,3.469,True,4,0.9,
+original-Haiku,51,EmptyBullets,Pydantic,4.807,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,51,TerseSAP,BAML,2.031,True,2,1.0,
+original-Haiku,51,TerseSAP,Pydantic,1.871,True,2,1.0,
+original-Haiku,52,NormalMatch,BAML,2.876,True,4,1.0,
+original-Haiku,52,NormalMatch,Pydantic,4.018,True,5,1.0,
+original-Haiku,52,EmptyBullets,BAML,3.372,True,4,0.9,
+original-Haiku,52,EmptyBullets,Pydantic,3.999,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,52,TerseSAP,BAML,2.021,True,2,1.0,
+original-Haiku,52,TerseSAP,Pydantic,1.783,True,2,1.0,
+original-Haiku,53,NormalMatch,BAML,3.934,True,5,1.0,
+original-Haiku,53,NormalMatch,Pydantic,4.537,True,5,1.0,
+original-Haiku,53,EmptyBullets,BAML,2.939,True,4,0.9,
+original-Haiku,53,EmptyBullets,Pydantic,4.17,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,53,TerseSAP,BAML,1.709,True,2,1.0,
+original-Haiku,53,TerseSAP,Pydantic,1.877,True,2,1.0,
+original-Haiku,54,NormalMatch,BAML,4.923,True,5,1.0,
+original-Haiku,54,NormalMatch,Pydantic,5.23,True,5,1.0,
+original-Haiku,54,EmptyBullets,BAML,2.959,True,4,0.95,
+original-Haiku,54,EmptyBullets,Pydantic,4.181,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,54,TerseSAP,BAML,2.76,True,2,1.0,
+original-Haiku,54,TerseSAP,Pydantic,1.958,True,2,1.0,
+original-Haiku,55,NormalMatch,BAML,4.131,True,5,1.0,
+original-Haiku,55,NormalMatch,Pydantic,4.542,True,5,1.0,
+original-Haiku,55,EmptyBullets,BAML,3.366,True,4,0.9,
+original-Haiku,55,EmptyBullets,Pydantic,9.612,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,55,TerseSAP,BAML,1.912,True,2,1.0,
+original-Haiku,55,TerseSAP,Pydantic,1.529,True,2,1.0,
+original-Haiku,56,NormalMatch,BAML,5.638,True,5,1.0,
+original-Haiku,56,NormalMatch,Pydantic,4.568,True,5,1.0,
+original-Haiku,56,EmptyBullets,BAML,3.344,True,4,0.9,
+original-Haiku,56,EmptyBullets,Pydantic,4.201,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,56,TerseSAP,BAML,2.049,True,2,1.0,
+original-Haiku,56,TerseSAP,Pydantic,1.631,True,2,1.0,
+original-Haiku,57,NormalMatch,BAML,4.486,True,5,1.0,
+original-Haiku,57,NormalMatch,Pydantic,4.253,True,5,1.0,
+original-Haiku,57,EmptyBullets,BAML,2.704,True,4,0.9,
+original-Haiku,57,EmptyBullets,Pydantic,4.52,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,57,TerseSAP,BAML,1.781,True,2,1.0,
+original-Haiku,57,TerseSAP,Pydantic,1.644,True,2,1.0,
+original-Haiku,58,NormalMatch,BAML,3.568,True,5,1.0,
+original-Haiku,58,NormalMatch,Pydantic,3.863,True,5,1.0,
+original-Haiku,58,EmptyBullets,BAML,6.309,True,4,0.9,
+original-Haiku,58,EmptyBullets,Pydantic,4.187,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,58,TerseSAP,BAML,1.911,True,2,1.0,
+original-Haiku,58,TerseSAP,Pydantic,1.881,True,2,1.0,
+original-Haiku,59,NormalMatch,BAML,3.186,True,4,1.0,
+original-Haiku,59,NormalMatch,Pydantic,4.76,True,5,1.0,
+original-Haiku,59,EmptyBullets,BAML,2.994,True,4,0.9,
+original-Haiku,59,EmptyBullets,Pydantic,3.985,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,59,TerseSAP,BAML,2.273,True,2,1.0,
+original-Haiku,59,TerseSAP,Pydantic,2.084,True,2,1.0,
+original-Haiku,60,NormalMatch,BAML,4.486,True,5,1.0,
+original-Haiku,60,NormalMatch,Pydantic,4.427,True,5,1.0,
+original-Haiku,60,EmptyBullets,BAML,2.736,True,3,1.0,
+original-Haiku,60,EmptyBullets,Pydantic,4.852,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,60,TerseSAP,BAML,1.75,True,2,1.0,
+original-Haiku,60,TerseSAP,Pydantic,1.851,True,2,1.0,
+original-Haiku,61,NormalMatch,BAML,4.003,True,5,1.0,
+original-Haiku,61,NormalMatch,Pydantic,4.317,True,5,1.0,
+original-Haiku,61,EmptyBullets,BAML,3.517,True,4,0.9,
+original-Haiku,61,EmptyBullets,Pydantic,4.373,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,61,TerseSAP,BAML,1.75,True,2,1.0,
+original-Haiku,61,TerseSAP,Pydantic,1.775,True,2,1.0,
+original-Haiku,62,NormalMatch,BAML,4.085,True,4,1.0,
+original-Haiku,62,NormalMatch,Pydantic,4.729,True,5,1.0,
+original-Haiku,62,EmptyBullets,BAML,3.31,True,4,0.9,
+original-Haiku,62,EmptyBullets,Pydantic,4.717,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,62,TerseSAP,BAML,1.656,True,2,1.0,
+original-Haiku,62,TerseSAP,Pydantic,1.899,True,2,1.0,
+original-Haiku,63,NormalMatch,BAML,3.485,True,4,1.0,
+original-Haiku,63,NormalMatch,Pydantic,3.744,True,5,1.0,
+original-Haiku,63,EmptyBullets,BAML,3.691,True,4,0.9,
+original-Haiku,63,EmptyBullets,Pydantic,4.335,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,63,TerseSAP,BAML,1.817,True,2,1.0,
+original-Haiku,63,TerseSAP,Pydantic,1.978,True,2,1.0,
+original-Haiku,64,NormalMatch,BAML,2.956,True,4,1.0,
+original-Haiku,64,NormalMatch,Pydantic,3.658,True,5,1.0,
+original-Haiku,64,EmptyBullets,BAML,3.067,True,4,0.95,
+original-Haiku,64,EmptyBullets,Pydantic,4.99,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,64,TerseSAP,BAML,1.691,True,2,1.0,
+original-Haiku,64,TerseSAP,Pydantic,1.966,True,2,1.0,
+original-Haiku,65,NormalMatch,BAML,4.289,True,5,1.0,
+original-Haiku,65,NormalMatch,Pydantic,4.245,True,5,1.0,
+original-Haiku,65,EmptyBullets,BAML,3.244,True,4,0.95,
+original-Haiku,65,EmptyBullets,Pydantic,4.002,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,65,TerseSAP,BAML,3.242,True,2,1.0,
+original-Haiku,65,TerseSAP,Pydantic,2.003,True,2,1.0,
+original-Haiku,66,NormalMatch,BAML,4.048,True,5,1.0,
+original-Haiku,66,NormalMatch,Pydantic,3.534,True,5,1.0,
+original-Haiku,66,EmptyBullets,BAML,3.047,True,4,0.9,
+original-Haiku,66,EmptyBullets,Pydantic,6.305,False,0,0.0,"1 validation error for MatchResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Here is the JSON object ...ements"" array is empty.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+original-Haiku,66,TerseSAP,BAML,1.876,True,2,1.0,
+original-Haiku,66,TerseSAP,Pydantic,2.069,True,2,1.0,
+original-Haiku,67,NormalMatch,BAML,3.401,True,5,1.0,
+original-Haiku,67,NormalMatch,Pydantic,6.018,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,67,EmptyBullets,BAML,3.128,True,4,0.9,
+original-Haiku,67,EmptyBullets,Pydantic,5.294,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,67,TerseSAP,BAML,1.622,True,2,1.0,
+original-Haiku,67,TerseSAP,Pydantic,1.555,True,2,1.0,
+original-Haiku,68,NormalMatch,BAML,2.971,True,4,1.0,
+original-Haiku,68,NormalMatch,Pydantic,3.877,True,5,1.0,
+original-Haiku,68,EmptyBullets,BAML,3.565,True,4,0.9,
+original-Haiku,68,EmptyBullets,Pydantic,4.794,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,68,TerseSAP,BAML,1.86,True,2,1.0,
+original-Haiku,68,TerseSAP,Pydantic,1.474,True,2,1.0,
+original-Haiku,69,NormalMatch,BAML,3.84,True,5,1.0,
+original-Haiku,69,NormalMatch,Pydantic,4.947,True,5,1.0,
+original-Haiku,69,EmptyBullets,BAML,3.994,True,4,0.9,
+original-Haiku,69,EmptyBullets,Pydantic,4.981,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,69,TerseSAP,BAML,2.094,True,2,1.0,
+original-Haiku,69,TerseSAP,Pydantic,2.009,True,2,1.0,
+original-Haiku,70,NormalMatch,BAML,3.313,True,4,1.0,
+original-Haiku,70,NormalMatch,Pydantic,3.773,True,4,1.0,
+original-Haiku,70,EmptyBullets,BAML,5.421,True,4,0.9,
+original-Haiku,70,EmptyBullets,Pydantic,5.734,False,0,0.0,"1 validation error for MatchResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Here is the JSON object ...rovided resume bullets.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+original-Haiku,70,TerseSAP,BAML,1.835,True,2,1.0,
+original-Haiku,70,TerseSAP,Pydantic,2.378,True,2,1.0,
+original-Haiku,71,NormalMatch,BAML,3.388,True,4,1.0,
+original-Haiku,71,NormalMatch,Pydantic,3.968,True,5,1.0,
+original-Haiku,71,EmptyBullets,BAML,7.285,True,4,0.9,
+original-Haiku,71,EmptyBullets,Pydantic,4.161,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,71,TerseSAP,BAML,1.817,True,2,1.0,
+original-Haiku,71,TerseSAP,Pydantic,2.08,True,2,1.0,
+original-Haiku,72,NormalMatch,BAML,3.46,True,4,1.0,
+original-Haiku,72,NormalMatch,Pydantic,4.882,True,5,1.0,
+original-Haiku,72,EmptyBullets,BAML,2.944,True,4,0.9,
+original-Haiku,72,EmptyBullets,Pydantic,3.489,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,72,TerseSAP,BAML,2.183,True,2,1.0,
+original-Haiku,72,TerseSAP,Pydantic,1.972,True,2,1.0,
+original-Haiku,73,NormalMatch,BAML,3.755,True,5,1.0,
+original-Haiku,73,NormalMatch,Pydantic,3.781,True,5,1.0,
+original-Haiku,73,EmptyBullets,BAML,3.505,True,4,0.9,
+original-Haiku,73,EmptyBullets,Pydantic,3.762,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,73,TerseSAP,BAML,2.109,True,2,1.0,
+original-Haiku,73,TerseSAP,Pydantic,1.855,True,2,1.0,
+original-Haiku,74,NormalMatch,BAML,3.061,True,4,1.0,
+original-Haiku,74,NormalMatch,Pydantic,6.063,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,74,EmptyBullets,BAML,2.948,True,4,0.9,
+original-Haiku,74,EmptyBullets,Pydantic,4.032,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,74,TerseSAP,BAML,3.172,True,2,1.0,
+original-Haiku,74,TerseSAP,Pydantic,1.803,True,2,1.0,
+original-Haiku,75,NormalMatch,BAML,4.487,True,4,1.0,
+original-Haiku,75,NormalMatch,Pydantic,3.627,True,5,1.0,
+original-Haiku,75,EmptyBullets,BAML,4.534,True,4,0.9,
+original-Haiku,75,EmptyBullets,Pydantic,7.109,False,0,0.0,"1 validation error for MatchResult
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='Here is the JSON object ... by the resume bullets.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+original-Haiku,75,TerseSAP,BAML,1.832,True,2,1.0,
+original-Haiku,75,TerseSAP,Pydantic,1.776,True,2,1.0,
+original-Haiku,76,NormalMatch,BAML,3.097,True,4,1.0,
+original-Haiku,76,NormalMatch,Pydantic,4.262,True,5,1.0,
+original-Haiku,76,EmptyBullets,BAML,2.78,True,4,0.95,
+original-Haiku,76,EmptyBullets,Pydantic,4.008,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,76,TerseSAP,BAML,1.623,True,2,1.0,
+original-Haiku,76,TerseSAP,Pydantic,1.845,True,2,1.0,
+original-Haiku,77,NormalMatch,BAML,3.069,True,4,1.0,
+original-Haiku,77,NormalMatch,Pydantic,4.0,True,5,1.0,
+original-Haiku,77,EmptyBullets,BAML,3.095,True,4,0.9,
+original-Haiku,77,EmptyBullets,Pydantic,5.173,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,77,TerseSAP,BAML,2.174,True,2,1.0,
+original-Haiku,77,TerseSAP,Pydantic,1.69,True,2,1.0,
+original-Haiku,78,NormalMatch,BAML,4.07,True,5,1.0,
+original-Haiku,78,NormalMatch,Pydantic,5.547,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,78,EmptyBullets,BAML,3.33,True,4,0.9,
+original-Haiku,78,EmptyBullets,Pydantic,4.274,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,78,TerseSAP,BAML,2.092,True,2,1.0,
+original-Haiku,78,TerseSAP,Pydantic,1.635,True,2,1.0,
+original-Haiku,79,NormalMatch,BAML,3.616,True,5,1.0,
+original-Haiku,79,NormalMatch,Pydantic,5.082,True,5,1.0,
+original-Haiku,79,EmptyBullets,BAML,3.412,True,4,0.9,
+original-Haiku,79,EmptyBullets,Pydantic,4.288,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,79,TerseSAP,BAML,1.636,True,2,1.0,
+original-Haiku,79,TerseSAP,Pydantic,1.801,True,2,1.0,
+original-Haiku,80,NormalMatch,BAML,2.892,True,4,1.0,
+original-Haiku,80,NormalMatch,Pydantic,4.997,True,5,1.0,
+original-Haiku,80,EmptyBullets,BAML,3.883,True,4,0.9,
+original-Haiku,80,EmptyBullets,Pydantic,4.627,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,80,TerseSAP,BAML,4.632,True,2,1.0,
+original-Haiku,80,TerseSAP,Pydantic,1.722,True,2,1.0,
+original-Haiku,81,NormalMatch,BAML,3.187,True,4,1.0,
+original-Haiku,81,NormalMatch,Pydantic,4.283,True,5,1.0,
+original-Haiku,81,EmptyBullets,BAML,3.471,True,4,0.95,
+original-Haiku,81,EmptyBullets,Pydantic,6.744,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,81,TerseSAP,BAML,1.999,True,2,1.0,
+original-Haiku,81,TerseSAP,Pydantic,2.117,True,2,1.0,
+original-Haiku,82,NormalMatch,BAML,4.052,True,5,1.0,
+original-Haiku,82,NormalMatch,Pydantic,3.672,True,5,1.0,
+original-Haiku,82,EmptyBullets,BAML,4.339,True,4,0.9,
+original-Haiku,82,EmptyBullets,Pydantic,4.325,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,82,TerseSAP,BAML,2.962,True,2,1.0,
+original-Haiku,82,TerseSAP,Pydantic,1.878,True,2,1.0,
+original-Haiku,83,NormalMatch,BAML,5.168,True,5,1.0,
+original-Haiku,83,NormalMatch,Pydantic,4.362,True,5,1.0,
+original-Haiku,83,EmptyBullets,BAML,2.876,True,4,0.9,
+original-Haiku,83,EmptyBullets,Pydantic,4.083,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,83,TerseSAP,BAML,1.537,True,2,1.0,
+original-Haiku,83,TerseSAP,Pydantic,1.577,True,2,1.0,
+original-Haiku,84,NormalMatch,BAML,4.405,True,5,1.0,
+original-Haiku,84,NormalMatch,Pydantic,4.64,True,5,1.0,
+original-Haiku,84,EmptyBullets,BAML,3.134,True,4,0.9,
+original-Haiku,84,EmptyBullets,Pydantic,4.084,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,84,TerseSAP,BAML,2.115,True,2,1.0,
+original-Haiku,84,TerseSAP,Pydantic,2.18,True,2,1.0,
+original-Haiku,85,NormalMatch,BAML,3.139,True,4,1.0,
+original-Haiku,85,NormalMatch,Pydantic,5.764,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,85,EmptyBullets,BAML,3.566,True,4,0.95,
+original-Haiku,85,EmptyBullets,Pydantic,4.328,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,85,TerseSAP,BAML,1.767,True,2,1.0,
+original-Haiku,85,TerseSAP,Pydantic,1.913,True,2,1.0,
+original-Haiku,86,NormalMatch,BAML,3.717,True,5,1.0,
+original-Haiku,86,NormalMatch,Pydantic,4.189,True,5,1.0,
+original-Haiku,86,EmptyBullets,BAML,4.425,True,4,0.9,
+original-Haiku,86,EmptyBullets,Pydantic,4.38,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,86,TerseSAP,BAML,1.727,True,2,1.0,
+original-Haiku,86,TerseSAP,Pydantic,1.949,True,2,1.0,
+original-Haiku,87,NormalMatch,BAML,5.006,True,4,1.0,
+original-Haiku,87,NormalMatch,Pydantic,4.473,True,5,1.0,
+original-Haiku,87,EmptyBullets,BAML,3.086,True,4,0.95,
+original-Haiku,87,EmptyBullets,Pydantic,5.652,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,87,TerseSAP,BAML,2.133,True,2,1.0,
+original-Haiku,87,TerseSAP,Pydantic,1.887,True,2,1.0,
+original-Haiku,88,NormalMatch,BAML,4.259,True,5,1.0,
+original-Haiku,88,NormalMatch,Pydantic,5.563,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,88,EmptyBullets,BAML,4.522,True,4,0.9,
+original-Haiku,88,EmptyBullets,Pydantic,4.107,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,88,TerseSAP,BAML,1.714,True,2,1.0,
+original-Haiku,88,TerseSAP,Pydantic,2.054,True,2,1.0,
+original-Haiku,89,NormalMatch,BAML,3.386,True,5,1.0,
+original-Haiku,89,NormalMatch,Pydantic,4.349,True,5,1.0,
+original-Haiku,89,EmptyBullets,BAML,3.39,True,4,0.9,
+original-Haiku,89,EmptyBullets,Pydantic,4.968,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,89,TerseSAP,BAML,2.091,True,2,1.0,
+original-Haiku,89,TerseSAP,Pydantic,1.677,True,2,1.0,
+original-Haiku,90,NormalMatch,BAML,2.955,True,4,1.0,
+original-Haiku,90,NormalMatch,Pydantic,4.735,True,5,1.0,
+original-Haiku,90,EmptyBullets,BAML,3.706,True,4,0.95,
+original-Haiku,90,EmptyBullets,Pydantic,4.517,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,90,TerseSAP,BAML,1.688,True,2,1.0,
+original-Haiku,90,TerseSAP,Pydantic,1.639,True,2,1.0,
+original-Haiku,91,NormalMatch,BAML,3.341,True,4,1.0,
+original-Haiku,91,NormalMatch,Pydantic,6.543,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,91,EmptyBullets,BAML,6.934,True,4,0.9,
+original-Haiku,91,EmptyBullets,Pydantic,4.352,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,91,TerseSAP,BAML,2.076,True,2,1.0,
+original-Haiku,91,TerseSAP,Pydantic,1.888,True,2,1.0,
+original-Haiku,92,NormalMatch,BAML,4.174,True,5,1.0,
+original-Haiku,92,NormalMatch,Pydantic,4.655,True,5,1.0,
+original-Haiku,92,EmptyBullets,BAML,3.391,True,4,0.9,
+original-Haiku,92,EmptyBullets,Pydantic,4.531,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,92,TerseSAP,BAML,1.826,True,2,1.0,
+original-Haiku,92,TerseSAP,Pydantic,1.773,True,2,1.0,
+original-Haiku,93,NormalMatch,BAML,3.869,True,5,1.0,
+original-Haiku,93,NormalMatch,Pydantic,3.589,True,5,1.0,
+original-Haiku,93,EmptyBullets,BAML,2.674,True,4,0.95,
+original-Haiku,93,EmptyBullets,Pydantic,3.732,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,93,TerseSAP,BAML,2.118,True,2,1.0,
+original-Haiku,93,TerseSAP,Pydantic,1.715,True,2,1.0,
+original-Haiku,94,NormalMatch,BAML,2.739,True,4,1.0,
+original-Haiku,94,NormalMatch,Pydantic,3.694,True,4,1.0,
+original-Haiku,94,EmptyBullets,BAML,3.156,True,4,0.9,
+original-Haiku,94,EmptyBullets,Pydantic,4.402,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,94,TerseSAP,BAML,1.773,True,2,1.0,
+original-Haiku,94,TerseSAP,Pydantic,1.791,True,2,1.0,
+original-Haiku,95,NormalMatch,BAML,4.278,True,5,1.0,
+original-Haiku,95,NormalMatch,Pydantic,4.589,True,5,1.0,
+original-Haiku,95,EmptyBullets,BAML,2.754,True,4,0.9,
+original-Haiku,95,EmptyBullets,Pydantic,4.271,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,95,TerseSAP,BAML,1.719,True,2,1.0,
+original-Haiku,95,TerseSAP,Pydantic,1.765,True,2,1.0,
+original-Haiku,96,NormalMatch,BAML,3.848,True,5,1.0,
+original-Haiku,96,NormalMatch,Pydantic,4.934,True,5,1.0,
+original-Haiku,96,EmptyBullets,BAML,3.385,True,4,0.9,
+original-Haiku,96,EmptyBullets,Pydantic,4.356,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,96,TerseSAP,BAML,1.876,True,2,1.0,
+original-Haiku,96,TerseSAP,Pydantic,1.872,True,2,1.0,
+original-Haiku,97,NormalMatch,BAML,3.228,True,4,1.0,
+original-Haiku,97,NormalMatch,Pydantic,4.931,True,5,1.0,
+original-Haiku,97,EmptyBullets,BAML,3.462,True,4,0.9,
+original-Haiku,97,EmptyBullets,Pydantic,5.154,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,97,TerseSAP,BAML,2.017,True,2,1.0,
+original-Haiku,97,TerseSAP,Pydantic,1.679,True,2,1.0,
+original-Haiku,98,NormalMatch,BAML,3.864,True,5,1.0,
+original-Haiku,98,NormalMatch,Pydantic,4.616,True,5,1.0,
+original-Haiku,98,EmptyBullets,BAML,2.883,True,4,0.9,
+original-Haiku,98,EmptyBullets,Pydantic,4.13,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,98,TerseSAP,BAML,1.816,True,2,1.0,
+original-Haiku,98,TerseSAP,Pydantic,1.741,True,2,1.0,
+original-Haiku,99,NormalMatch,BAML,4.947,True,5,1.0,
+original-Haiku,99,NormalMatch,Pydantic,5.097,True,5,1.0,
+original-Haiku,99,EmptyBullets,BAML,3.639,True,4,0.95,
+original-Haiku,99,EmptyBullets,Pydantic,6.495,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,99,TerseSAP,BAML,1.899,True,2,1.0,
+original-Haiku,99,TerseSAP,Pydantic,1.592,True,2,1.0,
+original-Haiku,100,NormalMatch,BAML,4.059,True,5,1.0,
+original-Haiku,100,NormalMatch,Pydantic,4.467,True,5,1.0,
+original-Haiku,100,EmptyBullets,BAML,2.761,True,4,0.9,
+original-Haiku,100,EmptyBullets,Pydantic,4.275,False,0,0.0,"3 validation errors for MatchResult
+matches
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+coverage_score
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+missing_requirements
+  Field required [type=missing, input_value={'$defs': {'MatchEntry': ...sing_requirements': []}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+original-Haiku,100,TerseSAP,BAML,1.767,True,2,1.0,
+original-Haiku,100,TerseSAP,Pydantic,1.608,True,2,1.0,
+hardened-Haiku,1,NormalMatch,BAML,3.075,True,4,1.0,
+hardened-Haiku,1,NormalMatch,Pydantic,3.358,True,4,1.0,
+hardened-Haiku,1,EmptyBullets,BAML,3.182,True,4,0.9,
+hardened-Haiku,1,EmptyBullets,Pydantic,3.277,True,4,0.95,
+hardened-Haiku,1,TerseSAP,BAML,3.335,True,2,1.0,
+hardened-Haiku,1,TerseSAP,Pydantic,1.983,True,2,1.0,
+hardened-Haiku,2,NormalMatch,BAML,4.016,True,5,1.0,
+hardened-Haiku,2,NormalMatch,Pydantic,3.608,True,4,1.0,
+hardened-Haiku,2,EmptyBullets,BAML,2.907,True,4,0.9,
+hardened-Haiku,2,EmptyBullets,Pydantic,3.568,True,4,0.9,
+hardened-Haiku,2,TerseSAP,BAML,1.857,True,2,1.0,
+hardened-Haiku,2,TerseSAP,Pydantic,1.692,True,2,1.0,
+hardened-Haiku,3,NormalMatch,BAML,4.878,True,5,1.0,
+hardened-Haiku,3,NormalMatch,Pydantic,3.24,True,4,1.0,
+hardened-Haiku,3,EmptyBullets,BAML,6.792,True,4,0.9,
+hardened-Haiku,3,EmptyBullets,Pydantic,2.554,True,4,0.9,
+hardened-Haiku,3,TerseSAP,BAML,1.775,True,2,1.0,
+hardened-Haiku,3,TerseSAP,Pydantic,2.112,True,2,1.0,
+hardened-Haiku,4,NormalMatch,BAML,3.693,True,5,1.0,
+hardened-Haiku,4,NormalMatch,Pydantic,3.642,True,4,1.0,
+hardened-Haiku,4,EmptyBullets,BAML,4.76,True,4,0.9,
+hardened-Haiku,4,EmptyBullets,Pydantic,2.848,True,4,0.95,
+hardened-Haiku,4,TerseSAP,BAML,2.595,True,2,1.0,
+hardened-Haiku,4,TerseSAP,Pydantic,1.475,True,2,1.0,
+hardened-Haiku,5,NormalMatch,BAML,4.418,True,5,1.0,
+hardened-Haiku,5,NormalMatch,Pydantic,3.724,True,4,1.0,
+hardened-Haiku,5,EmptyBullets,BAML,4.088,True,4,0.9,
+hardened-Haiku,5,EmptyBullets,Pydantic,2.656,True,4,0.95,
+hardened-Haiku,5,TerseSAP,BAML,2.338,True,2,1.0,
+hardened-Haiku,5,TerseSAP,Pydantic,1.43,True,2,1.0,
+hardened-Haiku,6,NormalMatch,BAML,2.729,True,4,1.0,
+hardened-Haiku,6,NormalMatch,Pydantic,3.787,True,4,1.0,
+hardened-Haiku,6,EmptyBullets,BAML,4.129,True,4,0.9,
+hardened-Haiku,6,EmptyBullets,Pydantic,3.512,True,4,0.9,
+hardened-Haiku,6,TerseSAP,BAML,1.773,True,2,1.0,
+hardened-Haiku,6,TerseSAP,Pydantic,3.698,True,2,1.0,
+hardened-Haiku,7,NormalMatch,BAML,4.963,True,5,1.0,
+hardened-Haiku,7,NormalMatch,Pydantic,3.936,True,4,1.0,
+hardened-Haiku,7,EmptyBullets,BAML,3.532,True,4,0.9,
+hardened-Haiku,7,EmptyBullets,Pydantic,3.868,True,4,0.9,
+hardened-Haiku,7,TerseSAP,BAML,2.188,True,2,1.0,
+hardened-Haiku,7,TerseSAP,Pydantic,1.813,True,2,1.0,
+hardened-Haiku,8,NormalMatch,BAML,5.626,True,5,1.0,
+hardened-Haiku,8,NormalMatch,Pydantic,3.143,True,4,1.0,
+hardened-Haiku,8,EmptyBullets,BAML,3.629,True,4,0.95,
+hardened-Haiku,8,EmptyBullets,Pydantic,3.0,True,4,0.9,
+hardened-Haiku,8,TerseSAP,BAML,1.929,True,2,1.0,
+hardened-Haiku,8,TerseSAP,Pydantic,1.958,True,2,1.0,
+hardened-Haiku,9,NormalMatch,BAML,4.307,True,5,1.0,
+hardened-Haiku,9,NormalMatch,Pydantic,3.19,True,4,1.0,
+hardened-Haiku,9,EmptyBullets,BAML,3.413,True,4,0.9,
+hardened-Haiku,9,EmptyBullets,Pydantic,3.237,True,4,0.9,
+hardened-Haiku,9,TerseSAP,BAML,2.096,True,2,1.0,
+hardened-Haiku,9,TerseSAP,Pydantic,1.594,True,2,1.0,
+hardened-Haiku,10,NormalMatch,BAML,4.162,True,5,1.0,
+hardened-Haiku,10,NormalMatch,Pydantic,3.586,True,4,1.0,
+hardened-Haiku,10,EmptyBullets,BAML,3.302,True,4,0.9,
+hardened-Haiku,10,EmptyBullets,Pydantic,3.478,True,4,0.9,
+hardened-Haiku,10,TerseSAP,BAML,2.433,True,2,1.0,
+hardened-Haiku,10,TerseSAP,Pydantic,1.881,True,2,1.0,
+hardened-Haiku,11,NormalMatch,BAML,4.345,True,5,1.0,
+hardened-Haiku,11,NormalMatch,Pydantic,3.014,True,4,1.0,
+hardened-Haiku,11,EmptyBullets,BAML,2.773,True,4,0.9,
+hardened-Haiku,11,EmptyBullets,Pydantic,3.38,True,4,0.9,
+hardened-Haiku,11,TerseSAP,BAML,3.029,True,2,1.0,
+hardened-Haiku,11,TerseSAP,Pydantic,1.592,True,2,1.0,
+hardened-Haiku,12,NormalMatch,BAML,3.565,True,4,1.0,
+hardened-Haiku,12,NormalMatch,Pydantic,3.147,True,4,1.0,
+hardened-Haiku,12,EmptyBullets,BAML,3.751,True,4,0.9,
+hardened-Haiku,12,EmptyBullets,Pydantic,3.001,True,4,0.9,
+hardened-Haiku,12,TerseSAP,BAML,2.069,True,2,1.0,
+hardened-Haiku,12,TerseSAP,Pydantic,1.89,True,2,1.0,
+hardened-Haiku,13,NormalMatch,BAML,4.236,True,5,1.0,
+hardened-Haiku,13,NormalMatch,Pydantic,3.285,True,4,1.0,
+hardened-Haiku,13,EmptyBullets,BAML,3.709,True,4,0.9,
+hardened-Haiku,13,EmptyBullets,Pydantic,4.057,True,4,0.9,
+hardened-Haiku,13,TerseSAP,BAML,2.115,True,2,1.0,
+hardened-Haiku,13,TerseSAP,Pydantic,1.809,True,2,1.0,
+hardened-Haiku,14,NormalMatch,BAML,3.838,True,5,1.0,
+hardened-Haiku,14,NormalMatch,Pydantic,3.366,True,4,1.0,
+hardened-Haiku,14,EmptyBullets,BAML,3.887,True,4,0.9,
+hardened-Haiku,14,EmptyBullets,Pydantic,2.935,True,4,0.9,
+hardened-Haiku,14,TerseSAP,BAML,2.024,True,2,1.0,
+hardened-Haiku,14,TerseSAP,Pydantic,1.476,True,2,1.0,
+hardened-Haiku,15,NormalMatch,BAML,3.772,True,5,1.0,
+hardened-Haiku,15,NormalMatch,Pydantic,3.453,True,4,1.0,
+hardened-Haiku,15,EmptyBullets,BAML,3.314,True,4,0.95,
+hardened-Haiku,15,EmptyBullets,Pydantic,3.172,True,4,0.9,
+hardened-Haiku,15,TerseSAP,BAML,1.874,True,2,1.0,
+hardened-Haiku,15,TerseSAP,Pydantic,1.584,True,2,1.0,
+hardened-Haiku,16,NormalMatch,BAML,4.052,True,5,1.0,
+hardened-Haiku,16,NormalMatch,Pydantic,3.475,True,4,1.0,
+hardened-Haiku,16,EmptyBullets,BAML,4.902,True,4,0.9,
+hardened-Haiku,16,EmptyBullets,Pydantic,3.105,True,4,0.9,
+hardened-Haiku,16,TerseSAP,BAML,1.744,True,2,1.0,
+hardened-Haiku,16,TerseSAP,Pydantic,1.844,True,2,1.0,
+hardened-Haiku,17,NormalMatch,BAML,4.073,True,5,1.0,
+hardened-Haiku,17,NormalMatch,Pydantic,3.201,True,4,1.0,
+hardened-Haiku,17,EmptyBullets,BAML,3.333,True,4,0.9,
+hardened-Haiku,17,EmptyBullets,Pydantic,5.453,True,4,0.9,
+hardened-Haiku,17,TerseSAP,BAML,3.196,True,2,1.0,
+hardened-Haiku,17,TerseSAP,Pydantic,1.808,True,2,1.0,
+hardened-Haiku,18,NormalMatch,BAML,4.172,True,5,1.0,
+hardened-Haiku,18,NormalMatch,Pydantic,4.147,True,4,1.0,
+hardened-Haiku,18,EmptyBullets,BAML,3.347,True,4,0.9,
+hardened-Haiku,18,EmptyBullets,Pydantic,3.013,True,4,0.9,
+hardened-Haiku,18,TerseSAP,BAML,1.893,True,2,1.0,
+hardened-Haiku,18,TerseSAP,Pydantic,1.741,True,2,1.0,
+hardened-Haiku,19,NormalMatch,BAML,4.305,True,5,1.0,
+hardened-Haiku,19,NormalMatch,Pydantic,2.969,True,4,1.0,
+hardened-Haiku,19,EmptyBullets,BAML,3.31,True,4,0.9,
+hardened-Haiku,19,EmptyBullets,Pydantic,2.478,True,4,0.9,
+hardened-Haiku,19,TerseSAP,BAML,1.736,True,2,1.0,
+hardened-Haiku,19,TerseSAP,Pydantic,1.48,True,2,1.0,
+hardened-Haiku,20,NormalMatch,BAML,3.766,True,5,1.0,
+hardened-Haiku,20,NormalMatch,Pydantic,3.053,True,4,1.0,
+hardened-Haiku,20,EmptyBullets,BAML,4.91,True,4,0.9,
+hardened-Haiku,20,EmptyBullets,Pydantic,3.011,True,4,0.9,
+hardened-Haiku,20,TerseSAP,BAML,2.095,True,2,1.0,
+hardened-Haiku,20,TerseSAP,Pydantic,1.851,True,2,1.0,
+hardened-Haiku,21,NormalMatch,BAML,4.29,True,5,1.0,
+hardened-Haiku,21,NormalMatch,Pydantic,3.589,True,4,1.0,
+hardened-Haiku,21,EmptyBullets,BAML,3.616,True,4,0.95,
+hardened-Haiku,21,EmptyBullets,Pydantic,3.383,True,4,0.9,
+hardened-Haiku,21,TerseSAP,BAML,2.298,True,2,1.0,
+hardened-Haiku,21,TerseSAP,Pydantic,1.694,True,2,1.0,
+hardened-Haiku,22,NormalMatch,BAML,4.257,True,5,1.0,
+hardened-Haiku,22,NormalMatch,Pydantic,4.618,True,4,1.0,
+hardened-Haiku,22,EmptyBullets,BAML,2.953,True,4,0.9,
+hardened-Haiku,22,EmptyBullets,Pydantic,3.702,True,4,0.9,
+hardened-Haiku,22,TerseSAP,BAML,1.765,True,2,1.0,
+hardened-Haiku,22,TerseSAP,Pydantic,1.979,True,2,1.0,
+hardened-Haiku,23,NormalMatch,BAML,4.05,True,5,1.0,
+hardened-Haiku,23,NormalMatch,Pydantic,3.265,True,4,1.0,
+hardened-Haiku,23,EmptyBullets,BAML,3.699,True,4,0.9,
+hardened-Haiku,23,EmptyBullets,Pydantic,2.828,True,4,0.95,
+hardened-Haiku,23,TerseSAP,BAML,2.065,True,2,1.0,
+hardened-Haiku,23,TerseSAP,Pydantic,1.616,True,2,1.0,
+hardened-Haiku,24,NormalMatch,BAML,3.859,True,5,1.0,
+hardened-Haiku,24,NormalMatch,Pydantic,3.531,True,4,1.0,
+hardened-Haiku,24,EmptyBullets,BAML,2.8,True,4,0.9,
+hardened-Haiku,24,EmptyBullets,Pydantic,2.584,True,4,0.9,
+hardened-Haiku,24,TerseSAP,BAML,2.082,True,2,1.0,
+hardened-Haiku,24,TerseSAP,Pydantic,1.475,True,2,1.0,
+hardened-Haiku,25,NormalMatch,BAML,3.681,True,5,1.0,
+hardened-Haiku,25,NormalMatch,Pydantic,3.43,True,4,1.0,
+hardened-Haiku,25,EmptyBullets,BAML,3.471,True,4,0.9,
+hardened-Haiku,25,EmptyBullets,Pydantic,3.078,True,4,0.9,
+hardened-Haiku,25,TerseSAP,BAML,1.876,True,2,1.0,
+hardened-Haiku,25,TerseSAP,Pydantic,2.142,True,2,1.0,
+hardened-Haiku,26,NormalMatch,BAML,4.156,True,5,1.0,
+hardened-Haiku,26,NormalMatch,Pydantic,3.846,True,4,1.0,
+hardened-Haiku,26,EmptyBullets,BAML,2.564,True,4,0.9,
+hardened-Haiku,26,EmptyBullets,Pydantic,3.199,True,4,0.9,
+hardened-Haiku,26,TerseSAP,BAML,2.389,True,2,1.0,
+hardened-Haiku,26,TerseSAP,Pydantic,2.007,True,2,1.0,
+hardened-Haiku,27,NormalMatch,BAML,2.994,True,4,1.0,
+hardened-Haiku,27,NormalMatch,Pydantic,3.25,True,4,1.0,
+hardened-Haiku,27,EmptyBullets,BAML,3.955,True,4,0.95,
+hardened-Haiku,27,EmptyBullets,Pydantic,3.255,True,4,0.9,
+hardened-Haiku,27,TerseSAP,BAML,1.989,True,2,1.0,
+hardened-Haiku,27,TerseSAP,Pydantic,2.445,True,2,1.0,
+hardened-Haiku,28,NormalMatch,BAML,4.468,True,5,1.0,
+hardened-Haiku,28,NormalMatch,Pydantic,3.308,True,4,1.0,
+hardened-Haiku,28,EmptyBullets,BAML,4.422,True,4,0.95,
+hardened-Haiku,28,EmptyBullets,Pydantic,3.167,True,4,0.9,
+hardened-Haiku,28,TerseSAP,BAML,1.845,True,2,1.0,
+hardened-Haiku,28,TerseSAP,Pydantic,1.614,True,2,1.0,
+hardened-Haiku,29,NormalMatch,BAML,3.71,True,5,1.0,
+hardened-Haiku,29,NormalMatch,Pydantic,3.021,True,4,1.0,
+hardened-Haiku,29,EmptyBullets,BAML,2.869,True,4,0.9,
+hardened-Haiku,29,EmptyBullets,Pydantic,3.223,True,4,0.9,
+hardened-Haiku,29,TerseSAP,BAML,1.912,True,2,1.0,
+hardened-Haiku,29,TerseSAP,Pydantic,2.034,True,2,1.0,
+hardened-Haiku,30,NormalMatch,BAML,3.922,True,5,1.0,
+hardened-Haiku,30,NormalMatch,Pydantic,2.817,True,4,1.0,
+hardened-Haiku,30,EmptyBullets,BAML,2.642,True,4,0.95,
+hardened-Haiku,30,EmptyBullets,Pydantic,2.663,True,4,0.9,
+hardened-Haiku,30,TerseSAP,BAML,2.003,True,2,1.0,
+hardened-Haiku,30,TerseSAP,Pydantic,1.855,True,2,1.0,
+hardened-Haiku,31,NormalMatch,BAML,5.223,True,5,1.0,
+hardened-Haiku,31,NormalMatch,Pydantic,3.658,True,4,1.0,
+hardened-Haiku,31,EmptyBullets,BAML,2.798,True,4,0.9,
+hardened-Haiku,31,EmptyBullets,Pydantic,3.159,True,4,0.9,
+hardened-Haiku,31,TerseSAP,BAML,2.037,True,2,1.0,
+hardened-Haiku,31,TerseSAP,Pydantic,1.837,True,2,1.0,
+hardened-Haiku,32,NormalMatch,BAML,3.554,True,5,1.0,
+hardened-Haiku,32,NormalMatch,Pydantic,3.166,True,4,1.0,
+hardened-Haiku,32,EmptyBullets,BAML,3.847,True,4,0.9,
+hardened-Haiku,32,EmptyBullets,Pydantic,3.06,True,4,0.9,
+hardened-Haiku,32,TerseSAP,BAML,2.041,True,2,1.0,
+hardened-Haiku,32,TerseSAP,Pydantic,1.801,True,2,1.0,
+hardened-Haiku,33,NormalMatch,BAML,3.568,True,5,1.0,
+hardened-Haiku,33,NormalMatch,Pydantic,2.876,True,4,1.0,
+hardened-Haiku,33,EmptyBullets,BAML,3.111,True,4,0.95,
+hardened-Haiku,33,EmptyBullets,Pydantic,2.989,True,4,0.9,
+hardened-Haiku,33,TerseSAP,BAML,1.786,True,2,1.0,
+hardened-Haiku,33,TerseSAP,Pydantic,1.954,True,2,1.0,
+hardened-Haiku,34,NormalMatch,BAML,3.172,True,4,1.0,
+hardened-Haiku,34,NormalMatch,Pydantic,4.07,True,4,1.0,
+hardened-Haiku,34,EmptyBullets,BAML,3.213,True,4,0.9,
+hardened-Haiku,34,EmptyBullets,Pydantic,3.325,True,4,0.9,
+hardened-Haiku,34,TerseSAP,BAML,2.029,True,2,1.0,
+hardened-Haiku,34,TerseSAP,Pydantic,1.5,True,2,1.0,
+hardened-Haiku,35,NormalMatch,BAML,4.499,True,5,1.0,
+hardened-Haiku,35,NormalMatch,Pydantic,2.775,True,4,1.0,
+hardened-Haiku,35,EmptyBullets,BAML,2.798,True,4,0.9,
+hardened-Haiku,35,EmptyBullets,Pydantic,3.256,True,4,0.9,
+hardened-Haiku,35,TerseSAP,BAML,3.068,True,2,1.0,
+hardened-Haiku,35,TerseSAP,Pydantic,2.054,True,2,1.0,
+hardened-Haiku,36,NormalMatch,BAML,3.519,True,5,1.0,
+hardened-Haiku,36,NormalMatch,Pydantic,3.306,True,4,1.0,
+hardened-Haiku,36,EmptyBullets,BAML,3.69,True,4,0.9,
+hardened-Haiku,36,EmptyBullets,Pydantic,2.531,True,4,0.9,
+hardened-Haiku,36,TerseSAP,BAML,2.097,True,2,1.0,
+hardened-Haiku,36,TerseSAP,Pydantic,1.905,True,2,1.0,
+hardened-Haiku,37,NormalMatch,BAML,4.061,True,5,1.0,
+hardened-Haiku,37,NormalMatch,Pydantic,2.867,True,4,1.0,
+hardened-Haiku,37,EmptyBullets,BAML,3.258,True,4,0.9,
+hardened-Haiku,37,EmptyBullets,Pydantic,3.028,True,4,0.9,
+hardened-Haiku,37,TerseSAP,BAML,1.854,True,2,1.0,
+hardened-Haiku,37,TerseSAP,Pydantic,1.828,True,2,1.0,
+hardened-Haiku,38,NormalMatch,BAML,4.402,True,5,1.0,
+hardened-Haiku,38,NormalMatch,Pydantic,3.207,True,4,1.0,
+hardened-Haiku,38,EmptyBullets,BAML,3.432,True,4,0.9,
+hardened-Haiku,38,EmptyBullets,Pydantic,2.887,True,4,0.9,
+hardened-Haiku,38,TerseSAP,BAML,2.046,True,2,1.0,
+hardened-Haiku,38,TerseSAP,Pydantic,2.097,True,2,1.0,
+hardened-Haiku,39,NormalMatch,BAML,4.513,True,4,1.0,
+hardened-Haiku,39,NormalMatch,Pydantic,5.215,True,4,1.0,
+hardened-Haiku,39,EmptyBullets,BAML,3.439,True,4,0.9,
+hardened-Haiku,39,EmptyBullets,Pydantic,3.036,True,4,0.9,
+hardened-Haiku,39,TerseSAP,BAML,1.919,True,2,1.0,
+hardened-Haiku,39,TerseSAP,Pydantic,2.106,True,2,1.0,
+hardened-Haiku,40,NormalMatch,BAML,4.043,True,5,1.0,
+hardened-Haiku,40,NormalMatch,Pydantic,3.736,True,4,1.0,
+hardened-Haiku,40,EmptyBullets,BAML,2.908,True,4,0.9,
+hardened-Haiku,40,EmptyBullets,Pydantic,2.856,True,4,0.85,
+hardened-Haiku,40,TerseSAP,BAML,1.513,True,2,1.0,
+hardened-Haiku,40,TerseSAP,Pydantic,1.491,True,2,1.0,
+hardened-Haiku,41,NormalMatch,BAML,3.773,True,5,1.0,
+hardened-Haiku,41,NormalMatch,Pydantic,3.434,True,4,1.0,
+hardened-Haiku,41,EmptyBullets,BAML,3.457,True,4,0.9,
+hardened-Haiku,41,EmptyBullets,Pydantic,3.5,True,4,0.95,
+hardened-Haiku,41,TerseSAP,BAML,1.984,True,2,1.0,
+hardened-Haiku,41,TerseSAP,Pydantic,1.81,True,2,1.0,
+hardened-Haiku,42,NormalMatch,BAML,3.899,True,4,1.0,
+hardened-Haiku,42,NormalMatch,Pydantic,3.038,True,4,1.0,
+hardened-Haiku,42,EmptyBullets,BAML,3.851,True,4,0.9,
+hardened-Haiku,42,EmptyBullets,Pydantic,3.329,True,4,0.95,
+hardened-Haiku,42,TerseSAP,BAML,1.803,True,2,1.0,
+hardened-Haiku,42,TerseSAP,Pydantic,2.058,True,2,1.0,
+hardened-Haiku,43,NormalMatch,BAML,3.215,True,4,1.0,
+hardened-Haiku,43,NormalMatch,Pydantic,3.172,True,4,1.0,
+hardened-Haiku,43,EmptyBullets,BAML,3.507,True,4,0.9,
+hardened-Haiku,43,EmptyBullets,Pydantic,3.3,True,4,0.9,
+hardened-Haiku,43,TerseSAP,BAML,1.978,True,2,1.0,
+hardened-Haiku,43,TerseSAP,Pydantic,2.126,True,2,1.0,
+hardened-Haiku,44,NormalMatch,BAML,3.837,True,5,1.0,
+hardened-Haiku,44,NormalMatch,Pydantic,2.911,True,4,1.0,
+hardened-Haiku,44,EmptyBullets,BAML,2.868,True,4,0.9,
+hardened-Haiku,44,EmptyBullets,Pydantic,3.0,True,4,0.9,
+hardened-Haiku,44,TerseSAP,BAML,2.097,True,2,1.0,
+hardened-Haiku,44,TerseSAP,Pydantic,1.935,True,2,1.0,
+hardened-Haiku,45,NormalMatch,BAML,3.328,True,5,1.0,
+hardened-Haiku,45,NormalMatch,Pydantic,3.355,True,4,1.0,
+hardened-Haiku,45,EmptyBullets,BAML,3.452,True,4,0.9,
+hardened-Haiku,45,EmptyBullets,Pydantic,3.296,True,4,0.95,
+hardened-Haiku,45,TerseSAP,BAML,3.608,True,2,1.0,
+hardened-Haiku,45,TerseSAP,Pydantic,1.558,True,2,1.0,
+hardened-Haiku,46,NormalMatch,BAML,3.274,True,4,1.0,
+hardened-Haiku,46,NormalMatch,Pydantic,3.639,True,4,1.0,
+hardened-Haiku,46,EmptyBullets,BAML,3.461,True,4,0.95,
+hardened-Haiku,46,EmptyBullets,Pydantic,3.276,True,4,0.9,
+hardened-Haiku,46,TerseSAP,BAML,1.749,True,2,1.0,
+hardened-Haiku,46,TerseSAP,Pydantic,1.717,True,2,1.0,
+hardened-Haiku,47,NormalMatch,BAML,2.536,True,4,1.0,
+hardened-Haiku,47,NormalMatch,Pydantic,2.777,True,4,1.0,
+hardened-Haiku,47,EmptyBullets,BAML,2.811,True,4,0.9,
+hardened-Haiku,47,EmptyBullets,Pydantic,3.901,True,4,0.9,
+hardened-Haiku,47,TerseSAP,BAML,2.019,True,2,1.0,
+hardened-Haiku,47,TerseSAP,Pydantic,2.151,True,2,1.0,
+hardened-Haiku,48,NormalMatch,BAML,4.029,True,5,1.0,
+hardened-Haiku,48,NormalMatch,Pydantic,3.179,True,4,1.0,
+hardened-Haiku,48,EmptyBullets,BAML,3.21,True,4,0.95,
+hardened-Haiku,48,EmptyBullets,Pydantic,2.559,True,4,0.9,
+hardened-Haiku,48,TerseSAP,BAML,1.956,True,2,1.0,
+hardened-Haiku,48,TerseSAP,Pydantic,1.623,True,2,1.0,
+hardened-Haiku,49,NormalMatch,BAML,3.768,True,5,1.0,
+hardened-Haiku,49,NormalMatch,Pydantic,3.652,True,4,1.0,
+hardened-Haiku,49,EmptyBullets,BAML,2.917,True,4,0.9,
+hardened-Haiku,49,EmptyBullets,Pydantic,2.989,True,4,0.9,
+hardened-Haiku,49,TerseSAP,BAML,2.159,True,2,1.0,
+hardened-Haiku,49,TerseSAP,Pydantic,1.817,True,2,1.0,
+hardened-Haiku,50,NormalMatch,BAML,3.651,True,4,1.0,
+hardened-Haiku,50,NormalMatch,Pydantic,3.477,True,4,1.0,
+hardened-Haiku,50,EmptyBullets,BAML,4.819,True,4,0.95,
+hardened-Haiku,50,EmptyBullets,Pydantic,2.912,True,4,0.9,
+hardened-Haiku,50,TerseSAP,BAML,4.614,True,2,1.0,
+hardened-Haiku,50,TerseSAP,Pydantic,1.433,True,2,1.0,
+hardened-Haiku,51,NormalMatch,BAML,3.08,True,4,1.0,
+hardened-Haiku,51,NormalMatch,Pydantic,3.34,True,4,1.0,
+hardened-Haiku,51,EmptyBullets,BAML,3.894,True,4,0.9,
+hardened-Haiku,51,EmptyBullets,Pydantic,3.099,True,4,0.9,
+hardened-Haiku,51,TerseSAP,BAML,2.631,True,2,1.0,
+hardened-Haiku,51,TerseSAP,Pydantic,2.121,True,2,1.0,
+hardened-Haiku,52,NormalMatch,BAML,4.585,True,5,1.0,
+hardened-Haiku,52,NormalMatch,Pydantic,2.91,True,4,1.0,
+hardened-Haiku,52,EmptyBullets,BAML,4.303,True,4,0.9,
+hardened-Haiku,52,EmptyBullets,Pydantic,3.336,True,4,0.9,
+hardened-Haiku,52,TerseSAP,BAML,2.135,True,2,1.0,
+hardened-Haiku,52,TerseSAP,Pydantic,2.671,True,2,1.0,
+hardened-Haiku,53,NormalMatch,BAML,6.565,True,5,1.0,
+hardened-Haiku,53,NormalMatch,Pydantic,3.337,True,4,1.0,
+hardened-Haiku,53,EmptyBullets,BAML,3.663,True,4,0.9,
+hardened-Haiku,53,EmptyBullets,Pydantic,2.67,True,4,0.9,
+hardened-Haiku,53,TerseSAP,BAML,1.688,True,2,1.0,
+hardened-Haiku,53,TerseSAP,Pydantic,2.212,True,2,1.0,
+hardened-Haiku,54,NormalMatch,BAML,3.158,True,4,1.0,
+hardened-Haiku,54,NormalMatch,Pydantic,2.656,True,4,1.0,
+hardened-Haiku,54,EmptyBullets,BAML,2.905,True,4,0.9,
+hardened-Haiku,54,EmptyBullets,Pydantic,3.454,True,4,0.9,
+hardened-Haiku,54,TerseSAP,BAML,1.804,True,2,1.0,
+hardened-Haiku,54,TerseSAP,Pydantic,1.724,True,2,1.0,
+hardened-Haiku,55,NormalMatch,BAML,4.861,True,5,1.0,
+hardened-Haiku,55,NormalMatch,Pydantic,5.239,True,4,1.0,
+hardened-Haiku,55,EmptyBullets,BAML,3.286,True,4,0.95,
+hardened-Haiku,55,EmptyBullets,Pydantic,3.078,True,4,0.9,
+hardened-Haiku,55,TerseSAP,BAML,1.853,True,2,1.0,
+hardened-Haiku,55,TerseSAP,Pydantic,1.557,True,2,1.0,
+hardened-Haiku,56,NormalMatch,BAML,3.521,True,5,1.0,
+hardened-Haiku,56,NormalMatch,Pydantic,3.033,True,4,1.0,
+hardened-Haiku,56,EmptyBullets,BAML,3.308,True,4,0.9,
+hardened-Haiku,56,EmptyBullets,Pydantic,3.537,True,4,0.95,
+hardened-Haiku,56,TerseSAP,BAML,1.758,True,2,1.0,
+hardened-Haiku,56,TerseSAP,Pydantic,1.634,True,2,1.0,
+hardened-Haiku,57,NormalMatch,BAML,4.023,True,5,1.0,
+hardened-Haiku,57,NormalMatch,Pydantic,3.381,True,4,1.0,
+hardened-Haiku,57,EmptyBullets,BAML,3.286,True,4,0.9,
+hardened-Haiku,57,EmptyBullets,Pydantic,2.956,True,4,0.9,
+hardened-Haiku,57,TerseSAP,BAML,1.937,True,2,1.0,
+hardened-Haiku,57,TerseSAP,Pydantic,1.43,True,2,1.0,
+hardened-Haiku,58,NormalMatch,BAML,4.136,True,5,1.0,
+hardened-Haiku,58,NormalMatch,Pydantic,3.503,True,4,1.0,
+hardened-Haiku,58,EmptyBullets,BAML,3.729,True,4,0.9,
+hardened-Haiku,58,EmptyBullets,Pydantic,3.019,True,4,0.9,
+hardened-Haiku,58,TerseSAP,BAML,1.992,True,2,1.0,
+hardened-Haiku,58,TerseSAP,Pydantic,2.336,True,2,1.0,
+hardened-Haiku,59,NormalMatch,BAML,3.973,True,4,1.0,
+hardened-Haiku,59,NormalMatch,Pydantic,3.129,True,4,1.0,
+hardened-Haiku,59,EmptyBullets,BAML,3.15,True,4,0.95,
+hardened-Haiku,59,EmptyBullets,Pydantic,3.982,True,4,0.9,
+hardened-Haiku,59,TerseSAP,BAML,2.31,True,2,1.0,
+hardened-Haiku,59,TerseSAP,Pydantic,2.049,True,2,1.0,
+hardened-Haiku,60,NormalMatch,BAML,2.966,True,4,1.0,
+hardened-Haiku,60,NormalMatch,Pydantic,3.86,True,4,1.0,
+hardened-Haiku,60,EmptyBullets,BAML,2.765,True,4,0.9,
+hardened-Haiku,60,EmptyBullets,Pydantic,3.172,True,4,0.9,
+hardened-Haiku,60,TerseSAP,BAML,1.892,True,2,1.0,
+hardened-Haiku,60,TerseSAP,Pydantic,1.776,True,2,1.0,
+hardened-Haiku,61,NormalMatch,BAML,4.108,True,5,1.0,
+hardened-Haiku,61,NormalMatch,Pydantic,2.902,True,4,1.0,
+hardened-Haiku,61,EmptyBullets,BAML,3.045,True,4,0.9,
+hardened-Haiku,61,EmptyBullets,Pydantic,3.378,True,4,0.9,
+hardened-Haiku,61,TerseSAP,BAML,2.135,True,2,1.0,
+hardened-Haiku,61,TerseSAP,Pydantic,1.994,True,2,1.0,
+hardened-Haiku,62,NormalMatch,BAML,3.442,True,4,1.0,
+hardened-Haiku,62,NormalMatch,Pydantic,3.068,True,4,1.0,
+hardened-Haiku,62,EmptyBullets,BAML,3.276,True,4,0.9,
+hardened-Haiku,62,EmptyBullets,Pydantic,3.371,True,4,0.9,
+hardened-Haiku,62,TerseSAP,BAML,1.669,True,2,1.0,
+hardened-Haiku,62,TerseSAP,Pydantic,2.126,True,2,1.0,
+hardened-Haiku,63,NormalMatch,BAML,3.165,True,4,1.0,
+hardened-Haiku,63,NormalMatch,Pydantic,3.194,True,4,1.0,
+hardened-Haiku,63,EmptyBullets,BAML,3.736,True,4,0.9,
+hardened-Haiku,63,EmptyBullets,Pydantic,2.578,True,4,0.9,
+hardened-Haiku,63,TerseSAP,BAML,3.187,True,2,1.0,
+hardened-Haiku,63,TerseSAP,Pydantic,1.873,True,2,1.0,
+hardened-Haiku,64,NormalMatch,BAML,2.654,True,4,1.0,
+hardened-Haiku,64,NormalMatch,Pydantic,3.257,True,4,1.0,
+hardened-Haiku,64,EmptyBullets,BAML,3.387,True,4,0.9,
+hardened-Haiku,64,EmptyBullets,Pydantic,3.067,True,4,0.9,
+hardened-Haiku,64,TerseSAP,BAML,2.014,True,2,1.0,
+hardened-Haiku,64,TerseSAP,Pydantic,1.72,True,2,1.0,
+hardened-Haiku,65,NormalMatch,BAML,3.263,True,4,1.0,
+hardened-Haiku,65,NormalMatch,Pydantic,2.907,True,4,1.0,
+hardened-Haiku,65,EmptyBullets,BAML,3.093,True,4,0.9,
+hardened-Haiku,65,EmptyBullets,Pydantic,3.442,True,4,0.9,
+hardened-Haiku,65,TerseSAP,BAML,2.006,True,2,1.0,
+hardened-Haiku,65,TerseSAP,Pydantic,1.907,True,2,1.0,
+hardened-Haiku,66,NormalMatch,BAML,3.917,True,5,1.0,
+hardened-Haiku,66,NormalMatch,Pydantic,3.533,True,4,1.0,
+hardened-Haiku,66,EmptyBullets,BAML,4.535,True,4,0.9,
+hardened-Haiku,66,EmptyBullets,Pydantic,3.806,True,4,0.9,
+hardened-Haiku,66,TerseSAP,BAML,1.699,True,2,1.0,
+hardened-Haiku,66,TerseSAP,Pydantic,1.826,True,2,1.0,
+hardened-Haiku,67,NormalMatch,BAML,3.336,True,4,1.0,
+hardened-Haiku,67,NormalMatch,Pydantic,3.675,True,4,1.0,
+hardened-Haiku,67,EmptyBullets,BAML,3.675,True,4,0.9,
+hardened-Haiku,67,EmptyBullets,Pydantic,3.135,True,4,0.825,
+hardened-Haiku,67,TerseSAP,BAML,1.977,True,2,1.0,
+hardened-Haiku,67,TerseSAP,Pydantic,2.151,True,2,1.0,
+hardened-Haiku,68,NormalMatch,BAML,4.05,True,5,1.0,
+hardened-Haiku,68,NormalMatch,Pydantic,4.179,True,4,1.0,
+hardened-Haiku,68,EmptyBullets,BAML,3.102,True,4,0.9,
+hardened-Haiku,68,EmptyBullets,Pydantic,3.016,True,4,0.95,
+hardened-Haiku,68,TerseSAP,BAML,2.143,True,2,1.0,
+hardened-Haiku,68,TerseSAP,Pydantic,2.158,True,2,1.0,
+hardened-Haiku,69,NormalMatch,BAML,4.873,True,5,1.0,
+hardened-Haiku,69,NormalMatch,Pydantic,2.733,True,4,1.0,
+hardened-Haiku,69,EmptyBullets,BAML,2.923,True,4,0.9,
+hardened-Haiku,69,EmptyBullets,Pydantic,2.912,True,4,0.9,
+hardened-Haiku,69,TerseSAP,BAML,2.291,True,2,1.0,
+hardened-Haiku,69,TerseSAP,Pydantic,2.306,True,2,1.0,
+hardened-Haiku,70,NormalMatch,BAML,4.275,True,5,1.0,
+hardened-Haiku,70,NormalMatch,Pydantic,3.738,True,4,1.0,
+hardened-Haiku,70,EmptyBullets,BAML,3.699,True,4,0.9,
+hardened-Haiku,70,EmptyBullets,Pydantic,2.737,True,4,0.95,
+hardened-Haiku,70,TerseSAP,BAML,1.93,True,2,1.0,
+hardened-Haiku,70,TerseSAP,Pydantic,1.9,True,2,1.0,
+hardened-Haiku,71,NormalMatch,BAML,4.422,True,5,1.0,
+hardened-Haiku,71,NormalMatch,Pydantic,2.566,True,4,1.0,
+hardened-Haiku,71,EmptyBullets,BAML,3.699,True,4,0.9,
+hardened-Haiku,71,EmptyBullets,Pydantic,2.42,True,4,0.9,
+hardened-Haiku,71,TerseSAP,BAML,2.578,True,2,1.0,
+hardened-Haiku,71,TerseSAP,Pydantic,1.462,True,2,1.0,
+hardened-Haiku,72,NormalMatch,BAML,2.788,True,4,1.0,
+hardened-Haiku,72,NormalMatch,Pydantic,4.861,True,4,1.0,
+hardened-Haiku,72,EmptyBullets,BAML,3.12,True,4,0.95,
+hardened-Haiku,72,EmptyBullets,Pydantic,2.801,True,4,0.9,
+hardened-Haiku,72,TerseSAP,BAML,2.37,True,2,1.0,
+hardened-Haiku,72,TerseSAP,Pydantic,1.843,True,2,1.0,
+hardened-Haiku,73,NormalMatch,BAML,3.161,True,5,1.0,
+hardened-Haiku,73,NormalMatch,Pydantic,5.215,True,4,1.0,
+hardened-Haiku,73,EmptyBullets,BAML,2.91,True,4,0.95,
+hardened-Haiku,73,EmptyBullets,Pydantic,2.722,True,4,0.9,
+hardened-Haiku,73,TerseSAP,BAML,2.17,True,2,1.0,
+hardened-Haiku,73,TerseSAP,Pydantic,1.406,True,2,1.0,
+hardened-Haiku,74,NormalMatch,BAML,7.0,True,4,1.0,
+hardened-Haiku,74,NormalMatch,Pydantic,6.054,True,4,1.0,
+hardened-Haiku,74,EmptyBullets,BAML,2.946,True,4,0.95,
+hardened-Haiku,74,EmptyBullets,Pydantic,2.973,True,4,0.9,
+hardened-Haiku,74,TerseSAP,BAML,2.009,True,2,1.0,
+hardened-Haiku,74,TerseSAP,Pydantic,1.944,True,2,1.0,
+hardened-Haiku,75,NormalMatch,BAML,4.159,True,5,1.0,
+hardened-Haiku,75,NormalMatch,Pydantic,3.762,True,4,1.0,
+hardened-Haiku,75,EmptyBullets,BAML,3.468,True,4,0.9,
+hardened-Haiku,75,EmptyBullets,Pydantic,4.011,True,4,0.9,
+hardened-Haiku,75,TerseSAP,BAML,2.341,True,2,1.0,
+hardened-Haiku,75,TerseSAP,Pydantic,1.872,True,2,1.0,
+hardened-Haiku,76,NormalMatch,BAML,4.48,True,5,1.0,
+hardened-Haiku,76,NormalMatch,Pydantic,3.079,True,4,1.0,
+hardened-Haiku,76,EmptyBullets,BAML,3.48,True,4,0.95,
+hardened-Haiku,76,EmptyBullets,Pydantic,3.063,True,4,0.9,
+hardened-Haiku,76,TerseSAP,BAML,2.077,True,2,1.0,
+hardened-Haiku,76,TerseSAP,Pydantic,2.111,True,2,1.0,
+hardened-Haiku,77,NormalMatch,BAML,5.321,True,4,1.0,
+hardened-Haiku,77,NormalMatch,Pydantic,3.68,True,4,1.0,
+hardened-Haiku,77,EmptyBullets,BAML,3.599,True,4,0.9,
+hardened-Haiku,77,EmptyBullets,Pydantic,3.512,True,4,0.9,
+hardened-Haiku,77,TerseSAP,BAML,2.08,True,2,1.0,
+hardened-Haiku,77,TerseSAP,Pydantic,1.885,True,2,1.0,
+hardened-Haiku,78,NormalMatch,BAML,3.35,True,4,1.0,
+hardened-Haiku,78,NormalMatch,Pydantic,3.61,True,4,1.0,
+hardened-Haiku,78,EmptyBullets,BAML,3.193,True,4,0.95,
+hardened-Haiku,78,EmptyBullets,Pydantic,3.524,True,4,0.9,
+hardened-Haiku,78,TerseSAP,BAML,1.782,True,2,1.0,
+hardened-Haiku,78,TerseSAP,Pydantic,1.629,True,2,1.0,
+hardened-Haiku,79,NormalMatch,BAML,4.633,True,5,1.0,
+hardened-Haiku,79,NormalMatch,Pydantic,2.712,True,4,1.0,
+hardened-Haiku,79,EmptyBullets,BAML,3.52,True,4,0.9,
+hardened-Haiku,79,EmptyBullets,Pydantic,2.998,True,4,0.9,
+hardened-Haiku,79,TerseSAP,BAML,2.218,True,2,1.0,
+hardened-Haiku,79,TerseSAP,Pydantic,1.861,True,2,1.0,
+hardened-Haiku,80,NormalMatch,BAML,3.246,True,4,1.0,
+hardened-Haiku,80,NormalMatch,Pydantic,3.264,True,4,1.0,
+hardened-Haiku,80,EmptyBullets,BAML,3.487,True,4,0.9,
+hardened-Haiku,80,EmptyBullets,Pydantic,3.312,True,4,0.9,
+hardened-Haiku,80,TerseSAP,BAML,2.268,True,2,1.0,
+hardened-Haiku,80,TerseSAP,Pydantic,1.729,True,2,1.0,
+hardened-Haiku,81,NormalMatch,BAML,5.525,True,5,1.0,
+hardened-Haiku,81,NormalMatch,Pydantic,5.204,True,4,1.0,
+hardened-Haiku,81,EmptyBullets,BAML,2.751,True,4,0.9,
+hardened-Haiku,81,EmptyBullets,Pydantic,3.02,True,4,0.9,
+hardened-Haiku,81,TerseSAP,BAML,3.465,True,2,1.0,
+hardened-Haiku,81,TerseSAP,Pydantic,2.812,True,2,1.0,
+hardened-Haiku,82,NormalMatch,BAML,5.114,True,4,1.0,
+hardened-Haiku,82,NormalMatch,Pydantic,4.297,True,4,1.0,
+hardened-Haiku,82,EmptyBullets,BAML,4.036,True,4,0.9,
+hardened-Haiku,82,EmptyBullets,Pydantic,3.506,True,4,0.9,
+hardened-Haiku,82,TerseSAP,BAML,2.747,True,2,1.0,
+hardened-Haiku,82,TerseSAP,Pydantic,1.676,True,2,1.0,
+hardened-Haiku,83,NormalMatch,BAML,6.293,True,5,1.0,
+hardened-Haiku,83,NormalMatch,Pydantic,4.882,True,4,1.0,
+hardened-Haiku,83,EmptyBullets,BAML,3.285,True,4,0.9,
+hardened-Haiku,83,EmptyBullets,Pydantic,7.518,True,4,0.9,
+hardened-Haiku,83,TerseSAP,BAML,2.735,True,2,1.0,
+hardened-Haiku,83,TerseSAP,Pydantic,1.844,True,2,1.0,
+hardened-Haiku,84,NormalMatch,BAML,7.164,True,5,1.0,
+hardened-Haiku,84,NormalMatch,Pydantic,5.496,True,4,1.0,
+hardened-Haiku,84,EmptyBullets,BAML,5.253,True,4,0.9,
+hardened-Haiku,84,EmptyBullets,Pydantic,4.476,True,4,0.9,
+hardened-Haiku,84,TerseSAP,BAML,1.688,True,2,1.0,
+hardened-Haiku,84,TerseSAP,Pydantic,2.006,True,2,1.0,
+hardened-Haiku,85,NormalMatch,BAML,3.896,True,5,1.0,
+hardened-Haiku,85,NormalMatch,Pydantic,4.456,True,4,1.0,
+hardened-Haiku,85,EmptyBullets,BAML,3.25,True,4,0.9,
+hardened-Haiku,85,EmptyBullets,Pydantic,4.195,True,4,0.825,
+hardened-Haiku,85,TerseSAP,BAML,2.139,True,2,1.0,
+hardened-Haiku,85,TerseSAP,Pydantic,1.585,True,2,1.0,
+hardened-Haiku,86,NormalMatch,BAML,4.069,True,5,1.0,
+hardened-Haiku,86,NormalMatch,Pydantic,2.974,True,4,1.0,
+hardened-Haiku,86,EmptyBullets,BAML,4.114,True,4,0.9,
+hardened-Haiku,86,EmptyBullets,Pydantic,3.409,True,4,0.9,
+hardened-Haiku,86,TerseSAP,BAML,1.645,True,2,1.0,
+hardened-Haiku,86,TerseSAP,Pydantic,2.401,True,2,1.0,
+hardened-Haiku,87,NormalMatch,BAML,3.198,True,4,1.0,
+hardened-Haiku,87,NormalMatch,Pydantic,3.613,True,4,1.0,
+hardened-Haiku,87,EmptyBullets,BAML,6.677,True,4,0.9,
+hardened-Haiku,87,EmptyBullets,Pydantic,3.309,True,4,0.95,
+hardened-Haiku,87,TerseSAP,BAML,1.901,True,2,1.0,
+hardened-Haiku,87,TerseSAP,Pydantic,1.955,True,2,1.0,
+hardened-Haiku,88,NormalMatch,BAML,3.309,True,5,1.0,
+hardened-Haiku,88,NormalMatch,Pydantic,2.836,True,4,1.0,
+hardened-Haiku,88,EmptyBullets,BAML,2.966,True,4,0.95,
+hardened-Haiku,88,EmptyBullets,Pydantic,2.661,True,4,0.9,
+hardened-Haiku,88,TerseSAP,BAML,1.685,True,2,1.0,
+hardened-Haiku,88,TerseSAP,Pydantic,1.814,True,2,1.0,
+hardened-Haiku,89,NormalMatch,BAML,4.497,True,5,1.0,
+hardened-Haiku,89,NormalMatch,Pydantic,3.432,True,4,1.0,
+hardened-Haiku,89,EmptyBullets,BAML,3.28,True,4,0.9,
+hardened-Haiku,89,EmptyBullets,Pydantic,3.828,True,4,0.9,
+hardened-Haiku,89,TerseSAP,BAML,2.248,True,2,1.0,
+hardened-Haiku,89,TerseSAP,Pydantic,2.169,True,2,1.0,
+hardened-Haiku,90,NormalMatch,BAML,3.906,True,4,1.0,
+hardened-Haiku,90,NormalMatch,Pydantic,3.824,True,4,1.0,
+hardened-Haiku,90,EmptyBullets,BAML,2.718,True,4,0.9,
+hardened-Haiku,90,EmptyBullets,Pydantic,3.098,True,4,0.9,
+hardened-Haiku,90,TerseSAP,BAML,3.603,True,2,1.0,
+hardened-Haiku,90,TerseSAP,Pydantic,2.226,True,2,1.0,
+hardened-Haiku,91,NormalMatch,BAML,4.672,True,4,1.0,
+hardened-Haiku,91,NormalMatch,Pydantic,3.7,True,4,1.0,
+hardened-Haiku,91,EmptyBullets,BAML,3.175,True,4,0.9,
+hardened-Haiku,91,EmptyBullets,Pydantic,3.139,True,4,0.95,
+hardened-Haiku,91,TerseSAP,BAML,2.643,True,2,1.0,
+hardened-Haiku,91,TerseSAP,Pydantic,1.6,True,2,1.0,
+hardened-Haiku,92,NormalMatch,BAML,5.653,True,5,1.0,
+hardened-Haiku,92,NormalMatch,Pydantic,3.674,True,4,1.0,
+hardened-Haiku,92,EmptyBullets,BAML,3.443,True,4,0.9,
+hardened-Haiku,92,EmptyBullets,Pydantic,2.602,True,3,0.9,
+hardened-Haiku,92,TerseSAP,BAML,3.207,True,2,1.0,
+hardened-Haiku,92,TerseSAP,Pydantic,1.818,True,2,1.0,
+hardened-Haiku,93,NormalMatch,BAML,4.433,True,5,1.0,
+hardened-Haiku,93,NormalMatch,Pydantic,2.758,True,4,1.0,
+hardened-Haiku,93,EmptyBullets,BAML,3.427,True,4,0.9,
+hardened-Haiku,93,EmptyBullets,Pydantic,3.418,True,4,0.95,
+hardened-Haiku,93,TerseSAP,BAML,2.178,True,2,1.0,
+hardened-Haiku,93,TerseSAP,Pydantic,2.059,True,2,1.0,
+hardened-Haiku,94,NormalMatch,BAML,3.6,True,5,1.0,
+hardened-Haiku,94,NormalMatch,Pydantic,2.728,True,4,1.0,
+hardened-Haiku,94,EmptyBullets,BAML,2.762,True,4,0.9,
+hardened-Haiku,94,EmptyBullets,Pydantic,3.792,True,4,0.9,
+hardened-Haiku,94,TerseSAP,BAML,3.001,True,2,1.0,
+hardened-Haiku,94,TerseSAP,Pydantic,1.776,True,2,1.0,
+hardened-Haiku,95,NormalMatch,BAML,3.193,True,4,1.0,
+hardened-Haiku,95,NormalMatch,Pydantic,3.488,True,4,1.0,
+hardened-Haiku,95,EmptyBullets,BAML,3.471,True,4,0.9,
+hardened-Haiku,95,EmptyBullets,Pydantic,2.661,True,4,0.9,
+hardened-Haiku,95,TerseSAP,BAML,2.165,True,2,1.0,
+hardened-Haiku,95,TerseSAP,Pydantic,3.468,True,2,1.0,
+hardened-Haiku,96,NormalMatch,BAML,3.913,True,5,1.0,
+hardened-Haiku,96,NormalMatch,Pydantic,3.815,True,4,1.0,
+hardened-Haiku,96,EmptyBullets,BAML,3.684,True,4,0.9,
+hardened-Haiku,96,EmptyBullets,Pydantic,3.851,True,4,0.9,
+hardened-Haiku,96,TerseSAP,BAML,2.36,True,2,1.0,
+hardened-Haiku,96,TerseSAP,Pydantic,2.145,True,2,1.0,
+hardened-Haiku,97,NormalMatch,BAML,3.934,True,4,1.0,
+hardened-Haiku,97,NormalMatch,Pydantic,2.977,True,4,1.0,
+hardened-Haiku,97,EmptyBullets,BAML,3.365,True,4,0.9,
+hardened-Haiku,97,EmptyBullets,Pydantic,3.316,True,4,0.9,
+hardened-Haiku,97,TerseSAP,BAML,2.096,True,2,1.0,
+hardened-Haiku,97,TerseSAP,Pydantic,3.538,True,2,1.0,
+hardened-Haiku,98,NormalMatch,BAML,5.341,True,5,1.0,
+hardened-Haiku,98,NormalMatch,Pydantic,3.858,True,4,1.0,
+hardened-Haiku,98,EmptyBullets,BAML,2.909,True,4,0.9,
+hardened-Haiku,98,EmptyBullets,Pydantic,3.562,True,4,0.9,
+hardened-Haiku,98,TerseSAP,BAML,2.268,True,2,1.0,
+hardened-Haiku,98,TerseSAP,Pydantic,1.67,True,2,1.0,
+hardened-Haiku,99,NormalMatch,BAML,2.832,True,4,1.0,
+hardened-Haiku,99,NormalMatch,Pydantic,4.302,True,4,1.0,
+hardened-Haiku,99,EmptyBullets,BAML,3.023,True,4,0.9,
+hardened-Haiku,99,EmptyBullets,Pydantic,4.073,True,4,0.9,
+hardened-Haiku,99,TerseSAP,BAML,1.727,True,2,1.0,
+hardened-Haiku,99,TerseSAP,Pydantic,1.77,True,2,1.0,
+hardened-Haiku,100,NormalMatch,BAML,3.919,True,5,1.0,
+hardened-Haiku,100,NormalMatch,Pydantic,2.983,True,4,1.0,
+hardened-Haiku,100,EmptyBullets,BAML,3.004,True,4,0.9,
+hardened-Haiku,100,EmptyBullets,Pydantic,3.337,True,4,0.9,
+hardened-Haiku,100,TerseSAP,BAML,1.875,True,2,1.0,
+hardened-Haiku,100,TerseSAP,Pydantic,1.652,True,2,1.0,
+original-gpt4o-mini,1,NormalMatch,BAML,14.302,True,5,0.9,
+original-gpt4o-mini,1,NormalMatch,Pydantic,3.173,True,4,1.0,
+original-gpt4o-mini,1,EmptyBullets,BAML,2.381,True,2,1.0,
+original-gpt4o-mini,1,EmptyBullets,Pydantic,2.73,True,2,0.9,
+original-gpt4o-mini,1,TerseSAP,BAML,2.072,True,2,1.0,
+original-gpt4o-mini,1,TerseSAP,Pydantic,2.533,True,2,1.0,
+original-gpt4o-mini,2,NormalMatch,BAML,4.293,True,5,0.9,
+original-gpt4o-mini,2,NormalMatch,Pydantic,3.311,True,5,0.96,
+original-gpt4o-mini,2,EmptyBullets,BAML,2.165,True,2,0.9,
+original-gpt4o-mini,2,EmptyBullets,Pydantic,2.416,True,2,1.0,
+original-gpt4o-mini,2,TerseSAP,BAML,1.913,True,2,1.0,
+original-gpt4o-mini,2,TerseSAP,Pydantic,2.417,True,2,1.0,
+original-gpt4o-mini,3,NormalMatch,BAML,4.27,True,5,0.9,
+original-gpt4o-mini,3,NormalMatch,Pydantic,3.975,True,5,0.96,
+original-gpt4o-mini,3,EmptyBullets,BAML,3.513,True,4,0.75,
+original-gpt4o-mini,3,EmptyBullets,Pydantic,1.932,True,2,0.9,
+original-gpt4o-mini,3,TerseSAP,BAML,2.296,True,2,1.0,
+original-gpt4o-mini,3,TerseSAP,Pydantic,2.389,True,2,1.0,
+original-gpt4o-mini,4,NormalMatch,BAML,4.269,True,5,0.9,
+original-gpt4o-mini,4,NormalMatch,Pydantic,5.464,True,5,0.9,
+original-gpt4o-mini,4,EmptyBullets,BAML,2.438,True,2,0.9,
+original-gpt4o-mini,4,EmptyBullets,Pydantic,0.892,True,0,0.0,
+original-gpt4o-mini,4,TerseSAP,BAML,3.274,True,2,1.0,
+original-gpt4o-mini,4,TerseSAP,Pydantic,1.856,True,2,0.5,
+original-gpt4o-mini,5,NormalMatch,BAML,4.37,True,5,0.9,
+original-gpt4o-mini,5,NormalMatch,Pydantic,2.769,True,4,1.0,
+original-gpt4o-mini,5,EmptyBullets,BAML,2.335,True,2,1.0,
+original-gpt4o-mini,5,EmptyBullets,Pydantic,2.662,True,2,1.0,
+original-gpt4o-mini,5,TerseSAP,BAML,1.911,True,2,1.0,
+original-gpt4o-mini,5,TerseSAP,Pydantic,1.714,True,2,1.0,
+original-gpt4o-mini,6,NormalMatch,BAML,3.917,True,5,0.9,
+original-gpt4o-mini,6,NormalMatch,Pydantic,4.874,True,5,0.96,
+original-gpt4o-mini,6,EmptyBullets,BAML,2.089,True,2,0.9,
+original-gpt4o-mini,6,EmptyBullets,Pydantic,1.919,True,2,0.9,
+original-gpt4o-mini,6,TerseSAP,BAML,2.038,True,2,1.0,
+original-gpt4o-mini,6,TerseSAP,Pydantic,1.805,True,2,1.0,
+original-gpt4o-mini,7,NormalMatch,BAML,8.09,True,5,0.9,
+original-gpt4o-mini,7,NormalMatch,Pydantic,6.845,True,4,1.0,
+original-gpt4o-mini,7,EmptyBullets,BAML,1.836,True,2,0.9,
+original-gpt4o-mini,7,EmptyBullets,Pydantic,1.876,True,2,0.9,
+original-gpt4o-mini,7,TerseSAP,BAML,2.116,True,2,1.0,
+original-gpt4o-mini,7,TerseSAP,Pydantic,2.25,True,2,1.0,
+original-gpt4o-mini,8,NormalMatch,BAML,3.307,True,5,0.9,
+original-gpt4o-mini,8,NormalMatch,Pydantic,3.422,True,4,1.0,
+original-gpt4o-mini,8,EmptyBullets,BAML,2.196,True,2,0.9,
+original-gpt4o-mini,8,EmptyBullets,Pydantic,2.192,True,2,1.0,
+original-gpt4o-mini,8,TerseSAP,BAML,2.042,True,2,1.0,
+original-gpt4o-mini,8,TerseSAP,Pydantic,2.957,True,2,0.75,
+original-gpt4o-mini,9,NormalMatch,BAML,4.43,True,5,0.9,
+original-gpt4o-mini,9,NormalMatch,Pydantic,3.844,True,5,0.9,
+original-gpt4o-mini,9,EmptyBullets,BAML,1.882,True,2,0.9,
+original-gpt4o-mini,9,EmptyBullets,Pydantic,1.095,True,0,0.0,
+original-gpt4o-mini,9,TerseSAP,BAML,1.858,True,2,1.0,
+original-gpt4o-mini,9,TerseSAP,Pydantic,1.777,True,2,0.5,
+original-gpt4o-mini,10,NormalMatch,BAML,4.043,True,5,0.9,
+original-gpt4o-mini,10,NormalMatch,Pydantic,3.308,True,4,1.0,
+original-gpt4o-mini,10,EmptyBullets,BAML,1.975,True,2,0.9,
+original-gpt4o-mini,10,EmptyBullets,Pydantic,2.082,True,2,0.9,
+original-gpt4o-mini,10,TerseSAP,BAML,1.864,True,2,1.0,
+original-gpt4o-mini,10,TerseSAP,Pydantic,2.526,True,2,0.75,
+original-gpt4o-mini,11,NormalMatch,BAML,7.816,True,5,0.9,
+original-gpt4o-mini,11,NormalMatch,Pydantic,3.181,True,4,1.0,
+original-gpt4o-mini,11,EmptyBullets,BAML,1.924,True,2,1.0,
+original-gpt4o-mini,11,EmptyBullets,Pydantic,3.253,True,2,0.85,
+original-gpt4o-mini,11,TerseSAP,BAML,1.813,True,2,1.0,
+original-gpt4o-mini,11,TerseSAP,Pydantic,1.972,True,2,0.5,
+original-gpt4o-mini,12,NormalMatch,BAML,4.147,True,5,0.9,
+original-gpt4o-mini,12,NormalMatch,Pydantic,3.806,True,5,0.96,
+original-gpt4o-mini,12,EmptyBullets,BAML,2.413,True,2,0.9,
+original-gpt4o-mini,12,EmptyBullets,Pydantic,1.673,True,2,0.9,
+original-gpt4o-mini,12,TerseSAP,BAML,1.848,True,2,1.0,
+original-gpt4o-mini,12,TerseSAP,Pydantic,1.993,True,2,0.5,
+original-gpt4o-mini,13,NormalMatch,BAML,4.087,True,5,1.0,
+original-gpt4o-mini,13,NormalMatch,Pydantic,5.48,True,4,1.0,
+original-gpt4o-mini,13,EmptyBullets,BAML,2.967,True,2,1.0,
+original-gpt4o-mini,13,EmptyBullets,Pydantic,1.069,True,0,0.0,
+original-gpt4o-mini,13,TerseSAP,BAML,2.395,True,2,1.0,
+original-gpt4o-mini,13,TerseSAP,Pydantic,2.121,True,2,0.75,
+original-gpt4o-mini,14,NormalMatch,BAML,10.661,True,5,1.0,
+original-gpt4o-mini,14,NormalMatch,Pydantic,2.411,True,4,1.0,
+original-gpt4o-mini,14,EmptyBullets,BAML,2.096,True,2,0.9,
+original-gpt4o-mini,14,EmptyBullets,Pydantic,3.901,True,2,0.85,
+original-gpt4o-mini,14,TerseSAP,BAML,2.699,True,2,1.0,
+original-gpt4o-mini,14,TerseSAP,Pydantic,1.661,True,2,0.5,
+original-gpt4o-mini,15,NormalMatch,BAML,8.298,True,5,0.9,
+original-gpt4o-mini,15,NormalMatch,Pydantic,4.43,True,4,1.0,
+original-gpt4o-mini,15,EmptyBullets,BAML,2.262,True,2,0.9,
+original-gpt4o-mini,15,EmptyBullets,Pydantic,0.986,True,0,0.0,
+original-gpt4o-mini,15,TerseSAP,BAML,2.037,True,2,1.0,
+original-gpt4o-mini,15,TerseSAP,Pydantic,1.898,True,2,1.0,
+original-gpt4o-mini,16,NormalMatch,BAML,4.538,True,5,0.9,
+original-gpt4o-mini,16,NormalMatch,Pydantic,4.082,True,5,0.96,
+original-gpt4o-mini,16,EmptyBullets,BAML,2.133,True,2,0.9,
+original-gpt4o-mini,16,EmptyBullets,Pydantic,1.164,True,0,0.0,
+original-gpt4o-mini,16,TerseSAP,BAML,2.425,True,2,1.0,
+original-gpt4o-mini,16,TerseSAP,Pydantic,1.958,True,2,0.5,
+original-gpt4o-mini,17,NormalMatch,BAML,4.252,True,5,0.9,
+original-gpt4o-mini,17,NormalMatch,Pydantic,5.715,True,5,0.96,
+original-gpt4o-mini,17,EmptyBullets,BAML,1.996,True,2,0.9,
+original-gpt4o-mini,17,EmptyBullets,Pydantic,1.123,True,0,0.0,
+original-gpt4o-mini,17,TerseSAP,BAML,1.644,True,2,1.0,
+original-gpt4o-mini,17,TerseSAP,Pydantic,1.996,True,2,0.5,
+original-gpt4o-mini,18,NormalMatch,BAML,3.828,True,5,1.0,
+original-gpt4o-mini,18,NormalMatch,Pydantic,6.146,True,5,0.96,
+original-gpt4o-mini,18,EmptyBullets,BAML,2.874,True,4,0.75,
+original-gpt4o-mini,18,EmptyBullets,Pydantic,2.299,True,2,0.9,
+original-gpt4o-mini,18,TerseSAP,BAML,1.948,True,2,1.0,
+original-gpt4o-mini,18,TerseSAP,Pydantic,2.04,True,2,1.0,
+original-gpt4o-mini,19,NormalMatch,BAML,9.431,True,5,0.9,
+original-gpt4o-mini,19,NormalMatch,Pydantic,3.132,True,4,1.0,
+original-gpt4o-mini,19,EmptyBullets,BAML,2.081,True,2,0.9,
+original-gpt4o-mini,19,EmptyBullets,Pydantic,8.965,True,2,0.9,
+original-gpt4o-mini,19,TerseSAP,BAML,2.645,True,2,1.0,
+original-gpt4o-mini,19,TerseSAP,Pydantic,2.542,True,2,0.5,
+original-gpt4o-mini,20,NormalMatch,BAML,6.067,True,5,0.9,
+original-gpt4o-mini,20,NormalMatch,Pydantic,4.178,True,5,0.9,
+original-gpt4o-mini,20,EmptyBullets,BAML,1.932,True,2,0.85,
+original-gpt4o-mini,20,EmptyBullets,Pydantic,1.841,True,2,1.0,
+original-gpt4o-mini,20,TerseSAP,BAML,1.525,True,2,1.0,
+original-gpt4o-mini,20,TerseSAP,Pydantic,1.631,True,2,1.0,
+original-gpt4o-mini,21,NormalMatch,BAML,4.206,True,5,0.9,
+original-gpt4o-mini,21,NormalMatch,Pydantic,3.733,True,5,0.9,
+original-gpt4o-mini,21,EmptyBullets,BAML,2.093,True,2,0.9,
+original-gpt4o-mini,21,EmptyBullets,Pydantic,2.307,True,2,1.0,
+original-gpt4o-mini,21,TerseSAP,BAML,2.383,True,2,1.0,
+original-gpt4o-mini,21,TerseSAP,Pydantic,2.077,True,2,1.0,
+original-gpt4o-mini,22,NormalMatch,BAML,9.125,True,5,0.9,
+original-gpt4o-mini,22,NormalMatch,Pydantic,4.614,True,5,0.96,
+original-gpt4o-mini,22,EmptyBullets,BAML,1.86,True,2,0.85,
+original-gpt4o-mini,22,EmptyBullets,Pydantic,2.371,True,2,1.0,
+original-gpt4o-mini,22,TerseSAP,BAML,2.413,True,2,1.0,
+original-gpt4o-mini,22,TerseSAP,Pydantic,2.006,True,2,1.0,
+original-gpt4o-mini,23,NormalMatch,BAML,4.45,True,5,0.9,
+original-gpt4o-mini,23,NormalMatch,Pydantic,5.52,True,4,1.0,
+original-gpt4o-mini,23,EmptyBullets,BAML,1.716,True,2,0.85,
+original-gpt4o-mini,23,EmptyBullets,Pydantic,0.913,True,0,0.0,
+original-gpt4o-mini,23,TerseSAP,BAML,1.998,True,2,1.0,
+original-gpt4o-mini,23,TerseSAP,Pydantic,2.594,True,2,0.75,
+original-gpt4o-mini,24,NormalMatch,BAML,3.536,True,5,0.9,
+original-gpt4o-mini,24,NormalMatch,Pydantic,7.166,True,4,1.0,
+original-gpt4o-mini,24,EmptyBullets,BAML,2.299,True,2,0.9,
+original-gpt4o-mini,24,EmptyBullets,Pydantic,0.894,True,0,0.0,
+original-gpt4o-mini,24,TerseSAP,BAML,1.934,True,2,1.0,
+original-gpt4o-mini,24,TerseSAP,Pydantic,2.557,True,2,0.75,
+original-gpt4o-mini,25,NormalMatch,BAML,7.65,True,5,0.9,
+original-gpt4o-mini,25,NormalMatch,Pydantic,3.164,True,5,0.96,
+original-gpt4o-mini,25,EmptyBullets,BAML,2.612,True,2,0.9,
+original-gpt4o-mini,25,EmptyBullets,Pydantic,1.598,True,2,1.0,
+original-gpt4o-mini,25,TerseSAP,BAML,1.713,True,2,1.0,
+original-gpt4o-mini,25,TerseSAP,Pydantic,1.768,True,2,0.5,
+original-gpt4o-mini,26,NormalMatch,BAML,4.281,True,5,0.9,
+original-gpt4o-mini,26,NormalMatch,Pydantic,3.685,True,5,0.96,
+original-gpt4o-mini,26,EmptyBullets,BAML,1.966,True,2,0.9,
+original-gpt4o-mini,26,EmptyBullets,Pydantic,0.851,True,0,0.0,
+original-gpt4o-mini,26,TerseSAP,BAML,2.311,True,2,1.0,
+original-gpt4o-mini,26,TerseSAP,Pydantic,1.736,True,2,1.0,
+original-gpt4o-mini,27,NormalMatch,BAML,4.11,True,5,0.9,
+original-gpt4o-mini,27,NormalMatch,Pydantic,2.918,True,5,0.96,
+original-gpt4o-mini,27,EmptyBullets,BAML,2.093,True,2,1.0,
+original-gpt4o-mini,27,EmptyBullets,Pydantic,0.932,True,0,0.0,
+original-gpt4o-mini,27,TerseSAP,BAML,1.989,True,2,1.0,
+original-gpt4o-mini,27,TerseSAP,Pydantic,2.076,True,2,0.5,
+original-gpt4o-mini,28,NormalMatch,BAML,4.389,True,5,1.0,
+original-gpt4o-mini,28,NormalMatch,Pydantic,3.991,True,5,0.9,
+original-gpt4o-mini,28,EmptyBullets,BAML,1.828,True,2,1.0,
+original-gpt4o-mini,28,EmptyBullets,Pydantic,2.644,True,2,1.0,
+original-gpt4o-mini,28,TerseSAP,BAML,1.574,True,2,1.0,
+original-gpt4o-mini,28,TerseSAP,Pydantic,2.778,True,2,0.75,
+original-gpt4o-mini,29,NormalMatch,BAML,3.78,True,5,0.9,
+original-gpt4o-mini,29,NormalMatch,Pydantic,5.156,True,4,1.0,
+original-gpt4o-mini,29,EmptyBullets,BAML,2.013,True,2,0.85,
+original-gpt4o-mini,29,EmptyBullets,Pydantic,0.824,True,0,0.0,
+original-gpt4o-mini,29,TerseSAP,BAML,1.7,True,2,1.0,
+original-gpt4o-mini,29,TerseSAP,Pydantic,2.379,True,2,1.0,
+original-gpt4o-mini,30,NormalMatch,BAML,6.968,True,5,0.9,
+original-gpt4o-mini,30,NormalMatch,Pydantic,3.227,True,4,1.0,
+original-gpt4o-mini,30,EmptyBullets,BAML,2.205,True,3,0.8,
+original-gpt4o-mini,30,EmptyBullets,Pydantic,1.796,True,2,0.9,
+original-gpt4o-mini,30,TerseSAP,BAML,2.91,True,2,1.0,
+original-gpt4o-mini,30,TerseSAP,Pydantic,2.186,True,2,1.0,
+original-gpt4o-mini,31,NormalMatch,BAML,3.862,True,5,0.9,
+original-gpt4o-mini,31,NormalMatch,Pydantic,6.625,True,5,0.9,
+original-gpt4o-mini,31,EmptyBullets,BAML,1.765,True,2,0.9,
+original-gpt4o-mini,31,EmptyBullets,Pydantic,1.589,True,0,0.0,
+original-gpt4o-mini,31,TerseSAP,BAML,2.137,True,2,1.0,
+original-gpt4o-mini,31,TerseSAP,Pydantic,1.571,True,2,1.0,
+original-gpt4o-mini,32,NormalMatch,BAML,3.845,True,5,0.9,
+original-gpt4o-mini,32,NormalMatch,Pydantic,3.789,True,5,0.96,
+original-gpt4o-mini,32,EmptyBullets,BAML,1.898,True,2,0.9,
+original-gpt4o-mini,32,EmptyBullets,Pydantic,1.914,True,2,0.9,
+original-gpt4o-mini,32,TerseSAP,BAML,1.904,True,2,1.0,
+original-gpt4o-mini,32,TerseSAP,Pydantic,2.06,True,2,0.5,
+original-gpt4o-mini,33,NormalMatch,BAML,7.277,True,5,0.9,
+original-gpt4o-mini,33,NormalMatch,Pydantic,3.779,True,5,0.96,
+original-gpt4o-mini,33,EmptyBullets,BAML,2.69,True,2,0.9,
+original-gpt4o-mini,33,EmptyBullets,Pydantic,2.437,True,2,1.0,
+original-gpt4o-mini,33,TerseSAP,BAML,2.106,True,2,1.0,
+original-gpt4o-mini,33,TerseSAP,Pydantic,2.121,True,2,1.0,
+original-gpt4o-mini,34,NormalMatch,BAML,3.786,True,5,0.9,
+original-gpt4o-mini,34,NormalMatch,Pydantic,6.646,True,5,0.96,
+original-gpt4o-mini,34,EmptyBullets,BAML,2.518,True,4,0.35,
+original-gpt4o-mini,34,EmptyBullets,Pydantic,3.497,True,2,1.0,
+original-gpt4o-mini,34,TerseSAP,BAML,2.27,True,2,1.0,
+original-gpt4o-mini,34,TerseSAP,Pydantic,2.131,True,2,0.5,
+original-gpt4o-mini,35,NormalMatch,BAML,8.459,True,5,0.9,
+original-gpt4o-mini,35,NormalMatch,Pydantic,3.545,True,5,0.96,
+original-gpt4o-mini,35,EmptyBullets,BAML,2.43,True,3,0.77,
+original-gpt4o-mini,35,EmptyBullets,Pydantic,1.176,True,0,0.0,
+original-gpt4o-mini,35,TerseSAP,BAML,1.817,True,2,0.5,
+original-gpt4o-mini,35,TerseSAP,Pydantic,2.736,True,2,0.5,
+original-gpt4o-mini,36,NormalMatch,BAML,3.609,True,5,0.9,
+original-gpt4o-mini,36,NormalMatch,Pydantic,6.181,True,5,0.96,
+original-gpt4o-mini,36,EmptyBullets,BAML,1.963,True,2,0.9,
+original-gpt4o-mini,36,EmptyBullets,Pydantic,2.349,True,2,0.9,
+original-gpt4o-mini,36,TerseSAP,BAML,2.076,True,2,1.0,
+original-gpt4o-mini,36,TerseSAP,Pydantic,1.769,True,2,0.5,
+original-gpt4o-mini,37,NormalMatch,BAML,3.826,True,5,0.9,
+original-gpt4o-mini,37,NormalMatch,Pydantic,3.822,True,5,0.96,
+original-gpt4o-mini,37,EmptyBullets,BAML,1.946,True,2,0.9,
+original-gpt4o-mini,37,EmptyBullets,Pydantic,1.281,True,0,0.0,
+original-gpt4o-mini,37,TerseSAP,BAML,2.646,True,2,1.0,
+original-gpt4o-mini,37,TerseSAP,Pydantic,1.79,True,2,1.0,
+original-gpt4o-mini,38,NormalMatch,BAML,3.59,True,5,0.9,
+original-gpt4o-mini,38,NormalMatch,Pydantic,2.507,True,4,1.0,
+original-gpt4o-mini,38,EmptyBullets,BAML,2.815,True,2,0.9,
+original-gpt4o-mini,38,EmptyBullets,Pydantic,2.005,True,2,0.9,
+original-gpt4o-mini,38,TerseSAP,BAML,1.893,True,2,1.0,
+original-gpt4o-mini,38,TerseSAP,Pydantic,2.236,True,2,0.5,
+original-gpt4o-mini,39,NormalMatch,BAML,3.909,True,5,0.9,
+original-gpt4o-mini,39,NormalMatch,Pydantic,2.576,True,4,1.0,
+original-gpt4o-mini,39,EmptyBullets,BAML,2.257,True,2,0.9,
+original-gpt4o-mini,39,EmptyBullets,Pydantic,1.603,True,2,0.9,
+original-gpt4o-mini,39,TerseSAP,BAML,1.86,True,2,1.0,
+original-gpt4o-mini,39,TerseSAP,Pydantic,1.734,True,2,1.0,
+original-gpt4o-mini,40,NormalMatch,BAML,8.633,True,5,1.0,
+original-gpt4o-mini,40,NormalMatch,Pydantic,2.774,True,4,1.0,
+original-gpt4o-mini,40,EmptyBullets,BAML,2.221,True,2,0.9,
+original-gpt4o-mini,40,EmptyBullets,Pydantic,3.469,True,2,1.0,
+original-gpt4o-mini,40,TerseSAP,BAML,1.706,True,2,1.0,
+original-gpt4o-mini,40,TerseSAP,Pydantic,3.719,True,2,1.0,
+original-gpt4o-mini,41,NormalMatch,BAML,3.541,True,5,1.0,
+original-gpt4o-mini,41,NormalMatch,Pydantic,5.95,True,5,0.96,
+original-gpt4o-mini,41,EmptyBullets,BAML,2.134,True,2,1.0,
+original-gpt4o-mini,41,EmptyBullets,Pydantic,1.652,True,2,1.0,
+original-gpt4o-mini,41,TerseSAP,BAML,1.743,True,2,1.0,
+original-gpt4o-mini,41,TerseSAP,Pydantic,1.873,True,2,0.5,
+original-gpt4o-mini,42,NormalMatch,BAML,3.844,True,5,1.0,
+original-gpt4o-mini,42,NormalMatch,Pydantic,3.909,True,5,0.9,
+original-gpt4o-mini,42,EmptyBullets,BAML,1.969,True,2,0.9,
+original-gpt4o-mini,42,EmptyBullets,Pydantic,1.738,True,2,0.9,
+original-gpt4o-mini,42,TerseSAP,BAML,1.802,True,2,1.0,
+original-gpt4o-mini,42,TerseSAP,Pydantic,1.886,True,2,0.5,
+original-gpt4o-mini,43,NormalMatch,BAML,3.595,True,5,1.0,
+original-gpt4o-mini,43,NormalMatch,Pydantic,4.065,True,4,1.0,
+original-gpt4o-mini,43,EmptyBullets,BAML,1.972,True,2,0.85,
+original-gpt4o-mini,43,EmptyBullets,Pydantic,2.819,True,2,1.0,
+original-gpt4o-mini,43,TerseSAP,BAML,1.718,True,2,1.0,
+original-gpt4o-mini,43,TerseSAP,Pydantic,2.227,True,2,1.0,
+original-gpt4o-mini,44,NormalMatch,BAML,3.841,True,5,0.9,
+original-gpt4o-mini,44,NormalMatch,Pydantic,5.301,True,5,0.9,
+original-gpt4o-mini,44,EmptyBullets,BAML,2.849,True,4,0.75,
+original-gpt4o-mini,44,EmptyBullets,Pydantic,1.64,True,2,0.9,
+original-gpt4o-mini,44,TerseSAP,BAML,1.849,True,2,1.0,
+original-gpt4o-mini,44,TerseSAP,Pydantic,1.8,True,2,0.5,
+original-gpt4o-mini,45,NormalMatch,BAML,8.096,True,5,0.9,
+original-gpt4o-mini,45,NormalMatch,Pydantic,4.255,True,4,1.0,
+original-gpt4o-mini,45,EmptyBullets,BAML,1.64,True,2,0.9,
+original-gpt4o-mini,45,EmptyBullets,Pydantic,0.933,True,0,0.0,
+original-gpt4o-mini,45,TerseSAP,BAML,1.827,True,2,1.0,
+original-gpt4o-mini,45,TerseSAP,Pydantic,2.157,True,2,0.5,
+original-gpt4o-mini,46,NormalMatch,BAML,4.133,True,5,0.9,
+original-gpt4o-mini,46,NormalMatch,Pydantic,6.342,True,5,0.96,
+original-gpt4o-mini,46,EmptyBullets,BAML,2.349,True,2,0.9,
+original-gpt4o-mini,46,EmptyBullets,Pydantic,2.475,True,0,0.0,
+original-gpt4o-mini,46,TerseSAP,BAML,1.905,True,2,1.0,
+original-gpt4o-mini,46,TerseSAP,Pydantic,2.655,True,2,0.5,
+original-gpt4o-mini,47,NormalMatch,BAML,4.054,True,5,0.9,
+original-gpt4o-mini,47,NormalMatch,Pydantic,3.36,True,5,0.9,
+original-gpt4o-mini,47,EmptyBullets,BAML,2.024,True,2,0.9,
+original-gpt4o-mini,47,EmptyBullets,Pydantic,1.734,True,2,0.9,
+original-gpt4o-mini,47,TerseSAP,BAML,1.946,True,2,1.0,
+original-gpt4o-mini,47,TerseSAP,Pydantic,1.826,True,2,0.5,
+original-gpt4o-mini,48,NormalMatch,BAML,10.711,True,5,0.9,
+original-gpt4o-mini,48,NormalMatch,Pydantic,6.453,True,5,0.9,
+original-gpt4o-mini,48,EmptyBullets,BAML,2.132,True,2,0.9,
+original-gpt4o-mini,48,EmptyBullets,Pydantic,1.214,True,0,0.0,
+original-gpt4o-mini,48,TerseSAP,BAML,1.83,True,2,1.0,
+original-gpt4o-mini,48,TerseSAP,Pydantic,1.995,True,2,0.5,
+original-gpt4o-mini,49,NormalMatch,BAML,4.488,True,5,0.9,
+original-gpt4o-mini,49,NormalMatch,Pydantic,2.407,True,4,1.0,
+original-gpt4o-mini,49,EmptyBullets,BAML,2.066,True,2,0.9,
+original-gpt4o-mini,49,EmptyBullets,Pydantic,0.917,True,0,0.0,
+original-gpt4o-mini,49,TerseSAP,BAML,1.871,True,2,1.0,
+original-gpt4o-mini,49,TerseSAP,Pydantic,1.741,True,2,0.5,
+original-gpt4o-mini,50,NormalMatch,BAML,4.18,True,5,0.9,
+original-gpt4o-mini,50,NormalMatch,Pydantic,3.075,True,5,0.96,
+original-gpt4o-mini,50,EmptyBullets,BAML,1.967,True,2,0.9,
+original-gpt4o-mini,50,EmptyBullets,Pydantic,1.733,True,2,0.9,
+original-gpt4o-mini,50,TerseSAP,BAML,1.843,True,2,1.0,
+original-gpt4o-mini,50,TerseSAP,Pydantic,1.715,True,2,1.0,
+original-gpt4o-mini,51,NormalMatch,BAML,8.128,True,5,0.9,
+original-gpt4o-mini,51,NormalMatch,Pydantic,4.861,True,4,1.0,
+original-gpt4o-mini,51,EmptyBullets,BAML,2.092,True,2,0.9,
+original-gpt4o-mini,51,EmptyBullets,Pydantic,0.914,True,0,0.0,
+original-gpt4o-mini,51,TerseSAP,BAML,2.783,True,2,1.0,
+original-gpt4o-mini,51,TerseSAP,Pydantic,1.824,True,2,0.5,
+original-gpt4o-mini,52,NormalMatch,BAML,3.572,True,5,1.0,
+original-gpt4o-mini,52,NormalMatch,Pydantic,3.05,True,5,0.96,
+original-gpt4o-mini,52,EmptyBullets,BAML,1.922,True,2,0.9,
+original-gpt4o-mini,52,EmptyBullets,Pydantic,1.994,True,2,0.9,
+original-gpt4o-mini,52,TerseSAP,BAML,1.975,True,2,1.0,
+original-gpt4o-mini,52,TerseSAP,Pydantic,3.627,True,2,0.5,
+original-gpt4o-mini,53,NormalMatch,BAML,4.381,True,5,1.0,
+original-gpt4o-mini,53,NormalMatch,Pydantic,2.734,True,4,1.0,
+original-gpt4o-mini,53,EmptyBullets,BAML,2.974,True,4,0.75,
+original-gpt4o-mini,53,EmptyBullets,Pydantic,1.071,True,0,0.0,
+original-gpt4o-mini,53,TerseSAP,BAML,2.204,True,2,1.0,
+original-gpt4o-mini,53,TerseSAP,Pydantic,2.673,True,2,0.5,
+original-gpt4o-mini,54,NormalMatch,BAML,4.163,True,5,0.9,
+original-gpt4o-mini,54,NormalMatch,Pydantic,2.565,True,4,1.0,
+original-gpt4o-mini,54,EmptyBullets,BAML,3.227,True,4,0.75,
+original-gpt4o-mini,54,EmptyBullets,Pydantic,1.472,True,0,0.0,
+original-gpt4o-mini,54,TerseSAP,BAML,2.431,True,2,1.0,
+original-gpt4o-mini,54,TerseSAP,Pydantic,2.09,True,2,0.75,
+original-gpt4o-mini,55,NormalMatch,BAML,9.456,True,5,0.9,
+original-gpt4o-mini,55,NormalMatch,Pydantic,5.704,True,5,0.96,
+original-gpt4o-mini,55,EmptyBullets,BAML,2.139,True,2,0.9,
+original-gpt4o-mini,55,EmptyBullets,Pydantic,1.74,True,2,0.9,
+original-gpt4o-mini,55,TerseSAP,BAML,2.134,True,2,1.0,
+original-gpt4o-mini,55,TerseSAP,Pydantic,2.118,True,2,0.5,
+original-gpt4o-mini,56,NormalMatch,BAML,7.318,True,5,0.9,
+original-gpt4o-mini,56,NormalMatch,Pydantic,4.223,True,4,1.0,
+original-gpt4o-mini,56,EmptyBullets,BAML,2.195,True,2,0.85,
+original-gpt4o-mini,56,EmptyBullets,Pydantic,1.528,True,2,0.9,
+original-gpt4o-mini,56,TerseSAP,BAML,2.103,True,2,1.0,
+original-gpt4o-mini,56,TerseSAP,Pydantic,2.158,True,2,0.75,
+original-gpt4o-mini,57,NormalMatch,BAML,4.189,True,5,1.0,
+original-gpt4o-mini,57,NormalMatch,Pydantic,4.809,True,5,0.9,
+original-gpt4o-mini,57,EmptyBullets,BAML,2.169,True,2,1.0,
+original-gpt4o-mini,57,EmptyBullets,Pydantic,1.921,True,2,0.9,
+original-gpt4o-mini,57,TerseSAP,BAML,2.106,True,2,1.0,
+original-gpt4o-mini,57,TerseSAP,Pydantic,1.572,True,2,1.0,
+original-gpt4o-mini,58,NormalMatch,BAML,3.929,True,5,1.0,
+original-gpt4o-mini,58,NormalMatch,Pydantic,3.078,True,4,1.0,
+original-gpt4o-mini,58,EmptyBullets,BAML,2.401,True,2,0.85,
+original-gpt4o-mini,58,EmptyBullets,Pydantic,3.121,True,2,0.85,
+original-gpt4o-mini,58,TerseSAP,BAML,2.601,True,2,1.0,
+original-gpt4o-mini,58,TerseSAP,Pydantic,1.763,True,2,1.0,
+original-gpt4o-mini,59,NormalMatch,BAML,3.957,True,5,0.9,
+original-gpt4o-mini,59,NormalMatch,Pydantic,3.897,True,5,0.9,
+original-gpt4o-mini,59,EmptyBullets,BAML,2.859,True,2,1.0,
+original-gpt4o-mini,59,EmptyBullets,Pydantic,0.879,True,0,0.0,
+original-gpt4o-mini,59,TerseSAP,BAML,1.497,True,2,1.0,
+original-gpt4o-mini,59,TerseSAP,Pydantic,2.64,True,2,0.5,
+original-gpt4o-mini,60,NormalMatch,BAML,3.912,True,5,0.9,
+original-gpt4o-mini,60,NormalMatch,Pydantic,3.525,True,5,0.96,
+original-gpt4o-mini,60,EmptyBullets,BAML,2.491,True,2,0.9,
+original-gpt4o-mini,60,EmptyBullets,Pydantic,1.787,True,2,0.9,
+original-gpt4o-mini,60,TerseSAP,BAML,1.743,True,2,1.0,
+original-gpt4o-mini,60,TerseSAP,Pydantic,1.664,True,2,1.0,
+original-gpt4o-mini,61,NormalMatch,BAML,4.036,True,5,0.9,
+original-gpt4o-mini,61,NormalMatch,Pydantic,3.614,True,5,0.96,
+original-gpt4o-mini,61,EmptyBullets,BAML,2.181,True,2,0.85,
+original-gpt4o-mini,61,EmptyBullets,Pydantic,0.89,True,0,0.0,
+original-gpt4o-mini,61,TerseSAP,BAML,2.309,True,2,1.0,
+original-gpt4o-mini,61,TerseSAP,Pydantic,2.46,True,2,0.5,
+original-gpt4o-mini,62,NormalMatch,BAML,3.92,True,5,1.0,
+original-gpt4o-mini,62,NormalMatch,Pydantic,6.883,True,5,0.96,
+original-gpt4o-mini,62,EmptyBullets,BAML,2.011,True,2,1.0,
+original-gpt4o-mini,62,EmptyBullets,Pydantic,2.261,True,2,1.0,
+original-gpt4o-mini,62,TerseSAP,BAML,1.608,True,2,1.0,
+original-gpt4o-mini,62,TerseSAP,Pydantic,1.649,True,2,0.5,
+original-gpt4o-mini,63,NormalMatch,BAML,7.689,True,5,0.9,
+original-gpt4o-mini,63,NormalMatch,Pydantic,7.051,True,5,0.96,
+original-gpt4o-mini,63,EmptyBullets,BAML,2.188,True,2,0.85,
+original-gpt4o-mini,63,EmptyBullets,Pydantic,2.421,True,2,1.0,
+original-gpt4o-mini,63,TerseSAP,BAML,2.056,True,2,1.0,
+original-gpt4o-mini,63,TerseSAP,Pydantic,2.063,True,2,1.0,
+original-gpt4o-mini,64,NormalMatch,BAML,3.268,True,5,0.9,
+original-gpt4o-mini,64,NormalMatch,Pydantic,4.658,True,4,1.0,
+original-gpt4o-mini,64,EmptyBullets,BAML,3.22,True,2,0.85,
+original-gpt4o-mini,64,EmptyBullets,Pydantic,0.948,True,0,0.0,
+original-gpt4o-mini,64,TerseSAP,BAML,1.603,True,2,1.0,
+original-gpt4o-mini,64,TerseSAP,Pydantic,1.921,True,2,0.5,
+original-gpt4o-mini,65,NormalMatch,BAML,7.374,True,5,0.9,
+original-gpt4o-mini,65,NormalMatch,Pydantic,3.422,True,5,0.9,
+original-gpt4o-mini,65,EmptyBullets,BAML,2.638,True,2,0.85,
+original-gpt4o-mini,65,EmptyBullets,Pydantic,2.418,True,2,0.9,
+original-gpt4o-mini,65,TerseSAP,BAML,6.124,True,2,1.0,
+original-gpt4o-mini,65,TerseSAP,Pydantic,2.523,True,2,0.5,
+original-gpt4o-mini,66,NormalMatch,BAML,3.706,True,5,0.9,
+original-gpt4o-mini,66,NormalMatch,Pydantic,6.171,True,5,0.96,
+original-gpt4o-mini,66,EmptyBullets,BAML,2.161,True,2,0.9,
+original-gpt4o-mini,66,EmptyBullets,Pydantic,1.713,True,2,0.9,
+original-gpt4o-mini,66,TerseSAP,BAML,1.857,True,2,1.0,
+original-gpt4o-mini,66,TerseSAP,Pydantic,2.024,True,2,0.5,
+original-gpt4o-mini,67,NormalMatch,BAML,6.636,True,5,0.9,
+original-gpt4o-mini,67,NormalMatch,Pydantic,4.551,True,5,0.96,
+original-gpt4o-mini,67,EmptyBullets,BAML,2.932,True,4,0.75,
+original-gpt4o-mini,67,EmptyBullets,Pydantic,1.56,True,2,1.0,
+original-gpt4o-mini,67,TerseSAP,BAML,1.829,True,2,1.0,
+original-gpt4o-mini,67,TerseSAP,Pydantic,1.869,True,2,0.5,
+original-gpt4o-mini,68,NormalMatch,BAML,3.791,True,5,0.9,
+original-gpt4o-mini,68,NormalMatch,Pydantic,3.306,True,5,0.96,
+original-gpt4o-mini,68,EmptyBullets,BAML,2.319,True,2,0.9,
+original-gpt4o-mini,68,EmptyBullets,Pydantic,5.051,True,2,1.0,
+original-gpt4o-mini,68,TerseSAP,BAML,1.928,True,2,1.0,
+original-gpt4o-mini,68,TerseSAP,Pydantic,2.139,True,2,0.5,
+original-gpt4o-mini,69,NormalMatch,BAML,3.413,True,5,0.9,
+original-gpt4o-mini,69,NormalMatch,Pydantic,6.33,True,5,0.96,
+original-gpt4o-mini,69,EmptyBullets,BAML,2.088,True,2,0.9,
+original-gpt4o-mini,69,EmptyBullets,Pydantic,2.124,True,2,1.0,
+original-gpt4o-mini,69,TerseSAP,BAML,2.209,True,2,1.0,
+original-gpt4o-mini,69,TerseSAP,Pydantic,1.932,True,2,0.5,
+original-gpt4o-mini,70,NormalMatch,BAML,4.141,True,5,0.9,
+original-gpt4o-mini,70,NormalMatch,Pydantic,5.246,True,5,0.9,
+original-gpt4o-mini,70,EmptyBullets,BAML,1.932,True,2,1.0,
+original-gpt4o-mini,70,EmptyBullets,Pydantic,1.102,True,0,0.0,
+original-gpt4o-mini,70,TerseSAP,BAML,1.918,True,2,1.0,
+original-gpt4o-mini,70,TerseSAP,Pydantic,2.513,True,2,0.5,
+original-gpt4o-mini,71,NormalMatch,BAML,7.339,True,5,0.9,
+original-gpt4o-mini,71,NormalMatch,Pydantic,3.909,True,5,0.9,
+original-gpt4o-mini,71,EmptyBullets,BAML,2.717,True,2,0.85,
+original-gpt4o-mini,71,EmptyBullets,Pydantic,2.273,True,2,1.0,
+original-gpt4o-mini,71,TerseSAP,BAML,2.469,True,2,1.0,
+original-gpt4o-mini,71,TerseSAP,Pydantic,1.988,True,2,1.0,
+original-gpt4o-mini,72,NormalMatch,BAML,4.201,True,5,0.9,
+original-gpt4o-mini,72,NormalMatch,Pydantic,5.956,True,5,0.96,
+original-gpt4o-mini,72,EmptyBullets,BAML,1.941,True,2,0.9,
+original-gpt4o-mini,72,EmptyBullets,Pydantic,1.898,True,2,0.9,
+original-gpt4o-mini,72,TerseSAP,BAML,2.18,True,2,1.0,
+original-gpt4o-mini,72,TerseSAP,Pydantic,1.604,True,2,1.0,
+original-gpt4o-mini,73,NormalMatch,BAML,7.999,True,5,0.9,
+original-gpt4o-mini,73,NormalMatch,Pydantic,2.931,True,4,1.0,
+original-gpt4o-mini,73,EmptyBullets,BAML,2.02,True,2,0.9,
+original-gpt4o-mini,73,EmptyBullets,Pydantic,2.192,True,2,1.0,
+original-gpt4o-mini,73,TerseSAP,BAML,1.909,True,2,1.0,
+original-gpt4o-mini,73,TerseSAP,Pydantic,1.779,True,2,0.5,
+original-gpt4o-mini,74,NormalMatch,BAML,3.782,True,5,0.9,
+original-gpt4o-mini,74,NormalMatch,Pydantic,3.691,True,4,1.0,
+original-gpt4o-mini,74,EmptyBullets,BAML,2.428,True,2,1.0,
+original-gpt4o-mini,74,EmptyBullets,Pydantic,1.695,True,2,0.9,
+original-gpt4o-mini,74,TerseSAP,BAML,1.967,True,2,1.0,
+original-gpt4o-mini,74,TerseSAP,Pydantic,2.702,True,2,1.0,
+original-gpt4o-mini,75,NormalMatch,BAML,3.53,True,5,0.9,
+original-gpt4o-mini,75,NormalMatch,Pydantic,2.835,True,4,1.0,
+original-gpt4o-mini,75,EmptyBullets,BAML,3.261,True,3,0.77,
+original-gpt4o-mini,75,EmptyBullets,Pydantic,0.889,True,0,0.0,
+original-gpt4o-mini,75,TerseSAP,BAML,1.986,True,2,1.0,
+original-gpt4o-mini,75,TerseSAP,Pydantic,1.99,True,2,1.0,
+original-gpt4o-mini,76,NormalMatch,BAML,9.171,True,5,0.9,
+original-gpt4o-mini,76,NormalMatch,Pydantic,4.841,True,4,1.0,
+original-gpt4o-mini,76,EmptyBullets,BAML,1.677,True,2,1.0,
+original-gpt4o-mini,76,EmptyBullets,Pydantic,1.759,True,2,0.9,
+original-gpt4o-mini,76,TerseSAP,BAML,1.834,True,2,1.0,
+original-gpt4o-mini,76,TerseSAP,Pydantic,2.404,True,2,0.5,
+original-gpt4o-mini,77,NormalMatch,BAML,3.459,True,5,0.9,
+original-gpt4o-mini,77,NormalMatch,Pydantic,5.722,True,5,0.9,
+original-gpt4o-mini,77,EmptyBullets,BAML,1.727,True,2,0.9,
+original-gpt4o-mini,77,EmptyBullets,Pydantic,1.738,True,2,1.0,
+original-gpt4o-mini,77,TerseSAP,BAML,1.573,True,2,1.0,
+original-gpt4o-mini,77,TerseSAP,Pydantic,2.07,True,2,0.5,
+original-gpt4o-mini,78,NormalMatch,BAML,10.183,True,5,0.9,
+original-gpt4o-mini,78,NormalMatch,Pydantic,3.288,True,4,1.0,
+original-gpt4o-mini,78,EmptyBullets,BAML,1.786,True,2,1.0,
+original-gpt4o-mini,78,EmptyBullets,Pydantic,3.142,True,2,1.0,
+original-gpt4o-mini,78,TerseSAP,BAML,2.295,True,2,1.0,
+original-gpt4o-mini,78,TerseSAP,Pydantic,3.511,True,2,0.5,
+original-gpt4o-mini,79,NormalMatch,BAML,4.824,True,5,0.96,
+original-gpt4o-mini,79,NormalMatch,Pydantic,3.337,True,5,0.96,
+original-gpt4o-mini,79,EmptyBullets,BAML,2.027,True,2,0.9,
+original-gpt4o-mini,79,EmptyBullets,Pydantic,1.861,True,2,1.0,
+original-gpt4o-mini,79,TerseSAP,BAML,1.83,True,2,1.0,
+original-gpt4o-mini,79,TerseSAP,Pydantic,3.595,True,2,0.5,
+original-gpt4o-mini,80,NormalMatch,BAML,7.728,True,5,0.9,
+original-gpt4o-mini,80,NormalMatch,Pydantic,3.723,True,5,0.96,
+original-gpt4o-mini,80,EmptyBullets,BAML,3.128,True,2,0.85,
+original-gpt4o-mini,80,EmptyBullets,Pydantic,1.602,True,2,1.0,
+original-gpt4o-mini,80,TerseSAP,BAML,2.172,True,2,1.0,
+original-gpt4o-mini,80,TerseSAP,Pydantic,1.922,True,2,0.5,
+original-gpt4o-mini,81,NormalMatch,BAML,10.387,True,5,0.9,
+original-gpt4o-mini,81,NormalMatch,Pydantic,3.343,True,4,1.0,
+original-gpt4o-mini,81,EmptyBullets,BAML,1.817,True,2,0.85,
+original-gpt4o-mini,81,EmptyBullets,Pydantic,1.031,True,0,0.0,
+original-gpt4o-mini,81,TerseSAP,BAML,2.143,True,2,1.0,
+original-gpt4o-mini,81,TerseSAP,Pydantic,1.938,True,2,0.5,
+original-gpt4o-mini,82,NormalMatch,BAML,3.588,True,5,0.9,
+original-gpt4o-mini,82,NormalMatch,Pydantic,3.665,True,5,0.96,
+original-gpt4o-mini,82,EmptyBullets,BAML,1.848,True,2,0.9,
+original-gpt4o-mini,82,EmptyBullets,Pydantic,1.548,True,2,1.0,
+original-gpt4o-mini,82,TerseSAP,BAML,2.635,True,2,1.0,
+original-gpt4o-mini,82,TerseSAP,Pydantic,1.824,True,2,1.0,
+original-gpt4o-mini,83,NormalMatch,BAML,3.244,True,5,0.9,
+original-gpt4o-mini,83,NormalMatch,Pydantic,2.819,True,4,1.0,
+original-gpt4o-mini,83,EmptyBullets,BAML,1.895,True,2,0.9,
+original-gpt4o-mini,83,EmptyBullets,Pydantic,3.087,True,2,1.0,
+original-gpt4o-mini,83,TerseSAP,BAML,2.251,True,2,1.0,
+original-gpt4o-mini,83,TerseSAP,Pydantic,2.544,True,2,0.75,
+original-gpt4o-mini,84,NormalMatch,BAML,3.593,True,5,0.9,
+original-gpt4o-mini,84,NormalMatch,Pydantic,3.154,True,5,0.96,
+original-gpt4o-mini,84,EmptyBullets,BAML,2.951,True,4,0.75,
+original-gpt4o-mini,84,EmptyBullets,Pydantic,3.107,True,2,1.0,
+original-gpt4o-mini,84,TerseSAP,BAML,1.992,True,2,1.0,
+original-gpt4o-mini,84,TerseSAP,Pydantic,2.5,True,2,0.75,
+original-gpt4o-mini,85,NormalMatch,BAML,3.631,True,5,0.9,
+original-gpt4o-mini,85,NormalMatch,Pydantic,3.164,True,4,1.0,
+original-gpt4o-mini,85,EmptyBullets,BAML,2.98,True,3,0.77,
+original-gpt4o-mini,85,EmptyBullets,Pydantic,2.085,True,2,0.9,
+original-gpt4o-mini,85,TerseSAP,BAML,4.053,True,2,1.0,
+original-gpt4o-mini,85,TerseSAP,Pydantic,1.992,True,2,0.5,
+original-gpt4o-mini,86,NormalMatch,BAML,3.259,True,5,0.9,
+original-gpt4o-mini,86,NormalMatch,Pydantic,6.514,True,5,0.9,
+original-gpt4o-mini,86,EmptyBullets,BAML,2.481,True,2,0.85,
+original-gpt4o-mini,86,EmptyBullets,Pydantic,2.592,True,2,0.9,
+original-gpt4o-mini,86,TerseSAP,BAML,1.952,True,2,1.0,
+original-gpt4o-mini,86,TerseSAP,Pydantic,2.048,True,2,0.5,
+original-gpt4o-mini,87,NormalMatch,BAML,3.891,True,5,0.9,
+original-gpt4o-mini,87,NormalMatch,Pydantic,2.703,True,4,1.0,
+original-gpt4o-mini,87,EmptyBullets,BAML,2.502,True,2,0.85,
+original-gpt4o-mini,87,EmptyBullets,Pydantic,0.835,True,0,0.0,
+original-gpt4o-mini,87,TerseSAP,BAML,1.936,True,2,1.0,
+original-gpt4o-mini,87,TerseSAP,Pydantic,3.403,True,2,0.75,
+original-gpt4o-mini,88,NormalMatch,BAML,3.649,True,5,0.9,
+original-gpt4o-mini,88,NormalMatch,Pydantic,3.011,True,5,0.96,
+original-gpt4o-mini,88,EmptyBullets,BAML,2.326,True,2,0.9,
+original-gpt4o-mini,88,EmptyBullets,Pydantic,1.148,True,0,0.0,
+original-gpt4o-mini,88,TerseSAP,BAML,1.897,True,2,1.0,
+original-gpt4o-mini,88,TerseSAP,Pydantic,2.396,True,2,0.5,
+original-gpt4o-mini,89,NormalMatch,BAML,3.2,True,5,1.0,
+original-gpt4o-mini,89,NormalMatch,Pydantic,3.24,True,5,0.9,
+original-gpt4o-mini,89,EmptyBullets,BAML,2.021,True,2,0.9,
+original-gpt4o-mini,89,EmptyBullets,Pydantic,0.948,True,0,0.0,
+original-gpt4o-mini,89,TerseSAP,BAML,1.891,True,2,1.0,
+original-gpt4o-mini,89,TerseSAP,Pydantic,2.606,True,2,0.75,
+original-gpt4o-mini,90,NormalMatch,BAML,9.087,True,5,0.9,
+original-gpt4o-mini,90,NormalMatch,Pydantic,3.598,True,5,0.96,
+original-gpt4o-mini,90,EmptyBullets,BAML,31.323,True,2,1.0,
+original-gpt4o-mini,90,EmptyBullets,Pydantic,1.633,True,2,1.0,
+original-gpt4o-mini,90,TerseSAP,BAML,1.734,True,2,1.0,
+original-gpt4o-mini,90,TerseSAP,Pydantic,2.143,True,2,0.5,
+original-gpt4o-mini,91,NormalMatch,BAML,7.547,True,5,0.9,
+original-gpt4o-mini,91,NormalMatch,Pydantic,5.152,True,5,0.96,
+original-gpt4o-mini,91,EmptyBullets,BAML,4.799,True,4,0.75,
+original-gpt4o-mini,91,EmptyBullets,Pydantic,0.844,True,0,0.0,
+original-gpt4o-mini,91,TerseSAP,BAML,2.041,True,2,1.0,
+original-gpt4o-mini,91,TerseSAP,Pydantic,1.846,True,2,0.5,
+original-gpt4o-mini,92,NormalMatch,BAML,6.93,True,5,0.9,
+original-gpt4o-mini,92,NormalMatch,Pydantic,3.153,True,5,0.96,
+original-gpt4o-mini,92,EmptyBullets,BAML,2.034,True,2,0.85,
+original-gpt4o-mini,92,EmptyBullets,Pydantic,0.898,True,0,0.0,
+original-gpt4o-mini,92,TerseSAP,BAML,1.954,True,2,1.0,
+original-gpt4o-mini,92,TerseSAP,Pydantic,2.291,True,2,1.0,
+original-gpt4o-mini,93,NormalMatch,BAML,3.984,True,5,1.0,
+original-gpt4o-mini,93,NormalMatch,Pydantic,3.055,True,4,1.0,
+original-gpt4o-mini,93,EmptyBullets,BAML,1.733,True,2,0.9,
+original-gpt4o-mini,93,EmptyBullets,Pydantic,3.383,True,2,1.0,
+original-gpt4o-mini,93,TerseSAP,BAML,1.743,True,2,1.0,
+original-gpt4o-mini,93,TerseSAP,Pydantic,2.075,True,2,0.5,
+original-gpt4o-mini,94,NormalMatch,BAML,8.164,True,5,1.0,
+original-gpt4o-mini,94,NormalMatch,Pydantic,6.152,True,5,0.96,
+original-gpt4o-mini,94,EmptyBullets,BAML,2.258,True,2,0.85,
+original-gpt4o-mini,94,EmptyBullets,Pydantic,3.224,True,2,0.9,
+original-gpt4o-mini,94,TerseSAP,BAML,1.647,True,2,1.0,
+original-gpt4o-mini,94,TerseSAP,Pydantic,1.805,True,2,1.0,
+original-gpt4o-mini,95,NormalMatch,BAML,3.813,True,5,0.9,
+original-gpt4o-mini,95,NormalMatch,Pydantic,4.768,True,4,1.0,
+original-gpt4o-mini,95,EmptyBullets,BAML,8.887,True,4,0.75,
+original-gpt4o-mini,95,EmptyBullets,Pydantic,1.798,True,2,0.9,
+original-gpt4o-mini,95,TerseSAP,BAML,2.046,True,2,1.0,
+original-gpt4o-mini,95,TerseSAP,Pydantic,2.501,True,2,0.75,
+original-gpt4o-mini,96,NormalMatch,BAML,9.849,True,5,0.9,
+original-gpt4o-mini,96,NormalMatch,Pydantic,4.044,True,4,1.0,
+original-gpt4o-mini,96,EmptyBullets,BAML,3.004,True,2,1.0,
+original-gpt4o-mini,96,EmptyBullets,Pydantic,0.88,True,0,0.0,
+original-gpt4o-mini,96,TerseSAP,BAML,1.783,True,2,1.0,
+original-gpt4o-mini,96,TerseSAP,Pydantic,1.971,True,2,1.0,
+original-gpt4o-mini,97,NormalMatch,BAML,3.4,True,5,1.0,
+original-gpt4o-mini,97,NormalMatch,Pydantic,3.787,True,4,1.0,
+original-gpt4o-mini,97,EmptyBullets,BAML,2.688,True,2,1.0,
+original-gpt4o-mini,97,EmptyBullets,Pydantic,2.204,True,2,0.9,
+original-gpt4o-mini,97,TerseSAP,BAML,1.717,True,2,1.0,
+original-gpt4o-mini,97,TerseSAP,Pydantic,2.304,True,2,0.5,
+original-gpt4o-mini,98,NormalMatch,BAML,8.281,True,5,0.9,
+original-gpt4o-mini,98,NormalMatch,Pydantic,2.997,True,4,1.0,
+original-gpt4o-mini,98,EmptyBullets,BAML,2.152,True,2,0.9,
+original-gpt4o-mini,98,EmptyBullets,Pydantic,1.726,True,2,1.0,
+original-gpt4o-mini,98,TerseSAP,BAML,1.964,True,2,1.0,
+original-gpt4o-mini,98,TerseSAP,Pydantic,1.979,True,2,0.5,
+original-gpt4o-mini,99,NormalMatch,BAML,5.016,True,5,0.9,
+original-gpt4o-mini,99,NormalMatch,Pydantic,4.114,True,5,0.96,
+original-gpt4o-mini,99,EmptyBullets,BAML,1.96,True,2,0.9,
+original-gpt4o-mini,99,EmptyBullets,Pydantic,0.861,True,0,0.0,
+original-gpt4o-mini,99,TerseSAP,BAML,2.253,True,2,1.0,
+original-gpt4o-mini,99,TerseSAP,Pydantic,1.848,True,2,0.5,
+original-gpt4o-mini,100,NormalMatch,BAML,3.606,True,5,0.9,
+original-gpt4o-mini,100,NormalMatch,Pydantic,2.901,True,4,1.0,
+original-gpt4o-mini,100,EmptyBullets,BAML,2.254,True,3,0.77,
+original-gpt4o-mini,100,EmptyBullets,Pydantic,3.878,True,2,1.0,
+original-gpt4o-mini,100,TerseSAP,BAML,5.239,True,2,1.0,
+original-gpt4o-mini,100,TerseSAP,Pydantic,2.87,True,2,0.75,

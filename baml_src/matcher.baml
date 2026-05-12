@@ -23,9 +23,42 @@ client<llm> Haiku {
   }
 }
 
-// ── Function ────────────────────────────────────────────────────────
+client<llm> GPT4oMini {
+  provider openai-generic
+  options {
+    model "openai/gpt-4o-mini"
+    base_url "https://openrouter.ai/api/v1"
+    api_key env.OPENROUTER_API_KEY
+    temperature 0.2
+  }
+}
+
+// ── Functions ───────────────────────────────────────────────────────
 function MatchJDToResume(job_description: string, resume_bullets: string[]) -> MatchResult {
   client Haiku
+  prompt #"
+    You are a recruiting analyst. Given a job description and a list of resume bullets,
+    evaluate how well each bullet matches the job requirements.
+
+    JOB DESCRIPTION:
+    {{ job_description }}
+
+    RESUME BULLETS:
+    {% for bullet in resume_bullets %}
+    {{ loop.index }}. {{ bullet }}
+    {% endfor %}
+
+    For each bullet, identify the most relevant JD requirement it addresses,
+    score the match from 0.0 to 1.0, and justify briefly.
+    Also compute an overall coverage_score and list any missing_requirements
+    from the JD that no bullet addresses.
+
+    {{ ctx.output_format }}
+  "#
+}
+
+function MatchJDToResumeGPT(job_description: string, resume_bullets: string[]) -> MatchResult {
+  client GPT4oMini
   prompt #"
     You are a recruiting analyst. Given a job description and a list of resume bullets,
     evaluate how well each bullet matches the job requirements.
@@ -90,4 +123,43 @@ test TerseSAP {
       "wasm prod"
     ]
   }
+}
+
+// ── Adversarial test generation ─────────────────────────────────────
+class AdversarialTestCase {
+  name string @description("Short kebab-case identifier")
+  jd string @description("Job description — can be malformed, empty, weird formatting")
+  bullets string[] @description("Resume bullets — can be empty, contradictory, very long, single char")
+  attack_strategy string @description("Which failure mode this targets: force_schema_echo | force_truncation | force_type_coercion | force_field_omission | force_prose_preamble | force_markdown_fence | force_hallucinated_field")
+  expected_difficulty string @description("low | medium | high")
+}
+
+class AdversarialBatch {
+  cases AdversarialTestCase[]
+  generation_notes string @description("Brief notes on what the generator was trying to achieve")
+}
+
+function GenerateAdversarialCases(target_model: string, n_cases: int) -> AdversarialBatch {
+  client GPT4oMini
+  prompt #"
+    You are an adversarial test case generator. Your job is to produce {{ n_cases }} test cases designed to break a structured-output LLM pipeline that does job-description-to-resume-bullet matching.
+
+    The target model is {{ target_model }}. The schema the pipeline must produce is:
+    - matches: list of {bullet_id: int, jd_requirement: string, match_score: float (0-1), justification: string}
+    - coverage_score: float (0-1)
+    - missing_requirements: list of string
+
+    Generate diverse adversarial cases targeting different failure modes:
+    - force_schema_echo: inputs that confuse the model into mirroring schema structure
+    - force_truncation: inputs that produce very long required outputs
+    - force_type_coercion: inputs that tempt the model to return strings where ints/floats are required
+    - force_field_omission: ambiguous inputs that might cause the model to skip required fields
+    - force_prose_preamble: inputs that invite chatty prose responses
+    - force_markdown_fence: inputs that invite markdown code blocks
+    - force_hallucinated_field: inputs where the model might add extra fields
+
+    Be creative. Vary difficulty. Include edge cases: empty inputs, single-character inputs, contradictory inputs, inputs in languages other than English, inputs with special characters, extremely long inputs.
+
+    {{ ctx.output_format }}
+  "#
 }

@@ -1,0 +1,175 @@
+[
+  {
+    "name": "empty-inputs",
+    "jd": "",
+    "bullets": [],
+    "attack_strategy": "force_field_omission",
+    "expected_difficulty": "low"
+  },
+  {
+    "name": "single-character-jd",
+    "jd": "A",
+    "bullets": [
+      "Managed team",
+      "Developed software"
+    ],
+    "attack_strategy": "force_schema_echo",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "contradictory-bullets",
+    "jd": "Experience in project management required.",
+    "bullets": [
+      "Led projects successfully",
+      "Never managed a project"
+    ],
+    "attack_strategy": "force_field_omission",
+    "expected_difficulty": "high"
+  },
+  {
+    "name": "long-jd",
+    "jd": "This position requires a candidate who is skilled in multiple programming languages, has experience with cloud computing, and can work in a fast-paced environment while managing multiple tasks and deadlines effectively.",
+    "bullets": [
+      "Python developer",
+      "Cloud architect",
+      "Project manager"
+    ],
+    "attack_strategy": "force_truncation",
+    "expected_difficulty": "high"
+  },
+  {
+    "name": "long-bullets",
+    "jd": "Looking for a data analyst with strong SQL skills.",
+    "bullets": [
+      "Analyzed data using SQL and other tools to derive insights and support business decisions, while also collaborating with cross-functional teams to ensure data accuracy and integrity across various platforms and systems."
+    ],
+    "attack_strategy": "force_truncation",
+    "expected_difficulty": "high"
+  },
+  {
+    "name": "special-characters-jd",
+    "jd": "Must have experience with C++, Java, and Python! Also, familiarity with Agile methodologies is a plus.",
+    "bullets": [
+      "C++ developer",
+      "Java programmer",
+      "Agile coach"
+    ],
+    "attack_strategy": "force_schema_echo",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "foreign-language-jd",
+    "jd": "Se requiere experiencia en marketing digital.",
+    "bullets": [
+      "Digital marketing specialist",
+      "SEO expert"
+    ],
+    "attack_strategy": "force_field_omission",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "markdown-fence-in-bullets",
+    "jd": "Looking for a software engineer.",
+    "bullets": [
+      "```python\nprint('Hello World')\n```",
+      "Developed applications"
+    ],
+    "attack_strategy": "force_markdown_fence",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "prose-preamble-jd",
+    "jd": "We are excited to announce an opening for a data scientist. This role requires...",
+    "bullets": [
+      "Data analysis",
+      "Machine learning"
+    ],
+    "attack_strategy": "force_prose_preamble",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "type-coercion-in-bullets",
+    "jd": "Seeking a project manager with 5+ years of experience.",
+    "bullets": [
+      "5 years",
+      "Managed projects successfully"
+    ],
+    "attack_strategy": "force_type_coercion",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "extra-fields-jd",
+    "jd": "We need a graphic designer.",
+    "bullets": [
+      "Created logos",
+      "Designed websites"
+    ],
+    "attack_strategy": "force_hallucinated_field",
+    "expected_difficulty": "high"
+  },
+  {
+    "name": "empty-bullets",
+    "jd": "Looking for a business analyst.",
+    "bullets": [],
+    "attack_strategy": "force_field_omission",
+    "expected_difficulty": "low"
+  },
+  {
+    "name": "very-long-jd",
+    "jd": "This position requires extensive knowledge of various programming languages, frameworks, and methodologies, including but not limited to Java, Python, C#, and JavaScript, as well as experience in agile development, project management, and team leadership in a corporate environment.",
+    "bullets": [
+      "Software engineer",
+      "Team lead"
+    ],
+    "attack_strategy": "force_truncation",
+    "expected_difficulty": "high"
+  },
+  {
+    "name": "single-bullet",
+    "jd": "Must have experience in customer service.",
+    "bullets": [
+      "Provided excellent customer service."
+    ],
+    "attack_strategy": "force_field_omission",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "contradictory-jd-bullets",
+    "jd": "Experience in sales required.",
+    "bullets": [
+      "Worked in marketing",
+      "Sales associate"
+    ],
+    "attack_strategy": "force_field_omission",
+    "expected_difficulty": "high"
+  },
+  {
+    "name": "numeric-jd",
+    "jd": "5 years of experience in software development.",
+    "bullets": [
+      "Developed applications",
+      "Worked on projects"
+    ],
+    "attack_strategy": "force_type_coercion",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "preamble-in-bullets",
+    "jd": "We are hiring a web developer.",
+    "bullets": [
+      "In this role, you will be responsible for..."
+    ],
+    "attack_strategy": "force_prose_preamble",
+    "expected_difficulty": "medium"
+  },
+  {
+    "name": "empty-jd",
+    "jd": "",
+    "bullets": [
+      "Developed software",
+      "Led teams"
+    ],
+    "attack_strategy": "force_field_omission",
+    "expected_difficulty": "low"
+  }
+]

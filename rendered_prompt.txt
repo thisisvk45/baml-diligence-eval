@@ -1,0 +1,46 @@
+BAML Rendered Prompt for NormalMatch (captured via BAML_LOG=info)
+===================================================================
+Role: system
+===================================================================
+
+You are a recruiting analyst. Given a job description and a list of resume bullets,
+evaluate how well each bullet matches the job requirements.
+
+JOB DESCRIPTION:
+Senior Backend Engineer — Fintech
+Requirements:
+- 5+ years Python experience
+- Experience with distributed systems (Kafka, gRPC)
+- Strong SQL and data modeling skills
+- Familiarity with cloud platforms (AWS or GCP)
+
+RESUME BULLETS:
+1. Led migration of monolith to microservices using Python, gRPC, and Kafka at Scale Corp (6 years)
+2. Designed star-schema data warehouse on Snowflake with complex SQL pipelines
+3. Deployed production services on AWS ECS with Terraform IaC
+4. Built real-time fraud detection pipeline processing 50k events/sec
+
+For each bullet, identify the most relevant JD requirement it addresses,
+score the match from 0.0 to 1.0, and justify briefly.
+Also compute an overall coverage_score and list any missing_requirements
+from the JD that no bullet addresses.
+
+Answer in JSON using this schema:
+{
+  matches: [
+    {
+      bullet_id: int,
+      jd_requirement: string,
+      // 0.0 to 1.0
+      match_score: float,
+      justification: string,
+    }
+  ],
+  // 0.0 to 1.0 — fraction of JD requirements covered
+  coverage_score: float,
+  missing_requirements: string[],
+}
+
+===================================================================
+Token count: 357 input tokens
+===================================================================
