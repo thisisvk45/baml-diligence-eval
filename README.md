@@ -73,6 +73,7 @@ Requires Python 3.11 or later and an [OpenRouter](https://openrouter.ai/) API ke
 
 | File | Description |
 |------|-------------|
+| [`transcript.md`](transcript.md) | Claude Code session walkthrough: key decisions, dead ends, and the schema-echo discovery narrative |
 | [`docs/FINAL_REPORT.md`](docs/FINAL_REPORT.md) | Full analysis report with tables, latency percentiles, failure taxonomy, and DX comparison |
 | [`docs/prompt_comparison.md`](docs/prompt_comparison.md) | Side-by-side comparison of BAML vs Pydantic prompt formats with token counts |
 | [`docs/rendered_prompt.txt`](docs/rendered_prompt.txt) | Rendered BAML prompt showing the actual text sent to the LLM |
