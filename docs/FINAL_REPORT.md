@@ -1,4 +1,4 @@
-# BAML Diligence Eval — Final Report
+# BAML Diligence Eval.Final Report
 
 ## Overview
 
@@ -18,7 +18,7 @@ VC technical diligence exercise evaluating BoundaryML's BAML framework. A scratc
 | BAML Claim | Test Method |
 |---|---|
 | Schema-Aligned Parsing (SAP) | 3 test cases including edge cases; 100 runs per config |
-| Streaming with partial types | `main.py` streaming demo — iterate partials with nullable fields |
+| Streaming with partial types | `main.py` streaming demo.iterate partials with nullable fields |
 | In-file tests | 3 test blocks in `matcher.baml` via `baml-cli test` |
 | DX vs manual approach | Side-by-side code comparison + A/B harness |
 
@@ -27,8 +27,8 @@ VC technical diligence exercise evaluating BoundaryML's BAML framework. A scratc
 | Case | Description | Purpose |
 |---|---|---|
 | NormalMatch | Fintech JD (4 requirements) + 4 matching resume bullets | Happy path |
-| EmptyBullets | Frontend JD + empty `[]` bullets array | Edge case — empty input |
-| TerseSAP | "need rust + wasm dev" + ["rust 3yr", "wasm prod"] | Stress test — minimal/terse input |
+| EmptyBullets | Frontend JD + empty `[]` bullets array | Edge case.empty input |
+| TerseSAP | "need rust + wasm dev" + ["rust 3yr", "wasm prod"] | Stress test.minimal/terse input |
 
 ## Configurations
 
@@ -38,7 +38,7 @@ VC technical diligence exercise evaluating BoundaryML's BAML framework. A scratc
 | hardened-Haiku | anthropic/claude-3-haiku | Hardened: "You must respond with ONLY valid JSON matching the schema below. No markdown code fences. No prose before or after. No explanatory text. Just the raw JSON object." |
 | original-gpt4o-mini | openai/gpt-4o-mini | Basic (same as original-Haiku) |
 
-BAML prompt is identical across all configs — uses `{{ ctx.output_format }}` for automatic schema injection.
+BAML prompt is identical across all configs.uses `{{ ctx.output_format }}` for automatic schema injection.
 
 ---
 
@@ -83,9 +83,9 @@ BAML prompt is identical across all configs — uses `{{ ctx.output_format }}` f
 
 | Config | BAML Pass Rate | Pydantic Pass Rate |
 |---|---|---|
-| original-Haiku | 300/300 (100%) | 184/300 (61.3%) |
-| hardened-Haiku | 300/300 (100%) | 300/300 (100%) |
-| original-gpt4o-mini | 300/300 (100%) | 300/300 (100%) |
+| original-Haiku | **300/300 (100%)** | **184/300 (61.3%)** |
+| hardened-Haiku | **300/300 (100%)** | **300/300 (100%)** |
+| original-gpt4o-mini | **300/300 (100%)** | **300/300 (100%)** |
 
 ---
 
@@ -95,7 +95,7 @@ Total failures: **116** (all Pydantic, all original-Haiku config)
 
 | Failure Mode | Count | Description |
 |---|---|---|
-| schema-echo | 116 | LLM echoed back the Pydantic JSON schema (`$defs`, `properties` wrapper) instead of producing data conforming to the schema |
+| schema-echo | **116** | LLM echoed back the Pydantic JSON Schema (`$defs`, `properties` wrapper) instead of producing data conforming to the schema |
 
 **Breakdown by case:**
 
@@ -193,11 +193,11 @@ BAML does **not** have a consistent latency advantage. When prompts are well-eng
 
 | Metric | Value |
 |---|---|
-| Wall clock | 5744s (95.7 minutes) |
-| Total LLM calls | 1800 |
-| BAML calls | 900 |
-| Pydantic calls | 900 |
-| Estimated cost | ~$0.71 |
+| Wall clock | **5744s (95.7 minutes)** |
+| Total LLM calls | **1800** |
+| BAML calls | **900** |
+| Pydantic calls | **900** |
+| Estimated cost | **~$0.71** |
 | Haiku cost | ~$0.57 |
 | GPT-4o-mini cost | ~$0.14 |
 
@@ -236,7 +236,7 @@ Tested via `main.py` `demo_stream()`. Partial types work as documented:
 | Streaming | Built-in partial types | Not available without custom code |
 | Testing | In-file test blocks, `baml-cli test` | Requires pytest boilerplate |
 | Lines of application code | ~15 (main.py) | ~50 (main_pydantic.py) |
-| Type safety | Full — generated typed client | Manual — must keep models in sync |
+| Type safety | Full.generated typed client | Manual.must keep models in sync |
 
 ---
 
@@ -244,9 +244,9 @@ Tested via `main.py` `demo_stream()`. Partial types work as documented:
 
 | Issue | Severity | Detail |
 |---|---|---|
-| Version pinning | Medium | `generators.baml` version must exactly match `baml-py` (0.222.0) — mismatch gives cryptic errors |
+| Version pinning | Medium | `generators.baml` version must exactly match `baml-py` (0.222.0).mismatch gives cryptic errors |
 | Code regeneration | Low | Any `.baml` edit requires `baml-cli generate` before running Python. VS Code extension automates this, CLI users must remember |
-| npm package naming | Low | Package is `@boundaryml/baml`, not `@boundaryml/baml-cli` — discoverability issue |
+| npm package naming | Low | Package is `@boundaryml/baml`, not `@boundaryml/baml-cli`.discoverability issue |
 | `.env` loading | Low | `baml-cli test` loads `.env` automatically; Python scripts need `python-dotenv` |
 | Python 3.13 | None | `baml-py 0.222.0` installed cleanly on 3.13 with no friction |
 
@@ -263,15 +263,15 @@ Tested via `main.py` `demo_stream()`. Partial types work as documented:
 | `main_pydantic.py` | Manual OpenAI + Pydantic with hardened/original prompt modes, failure logging |
 | `test_harness.py` | Single-run A/B comparison (3 tables) |
 | `test_harness_100.py` | 100-run statistical harness with checkpointing and backoff |
-| `results.csv` | Raw data — 1800 rows, all runs |
+| `results.csv` | Raw data.1800 rows, all runs |
 | `pydantic_failures.txt` | Every Pydantic failure with raw LLM response, deduped with counts |
 | `README.md` | Setup and evaluation criteria |
 | `SESSION_CONTEXT.md` | Full session context for cross-session continuity |
-| `.env` | OpenRouter API key |
+| `.env.example` | OpenRouter API key placeholder (copy to `.env` and add your key) |
 
 ---
 
 ## Raw Data Location
 
-- `results.csv` — 1800 rows (config, run, case, approach, latency, parse_ok, matches, coverage, error)
-- `pydantic_failures.txt` — 69 unique failure patterns, 116 total occurrences, all with raw LLM responses
+- `results.csv`.1800 rows (config, run, case, approach, latency, parse_ok, matches, coverage, error)
+- `pydantic_failures.txt`.69 unique failure patterns, 116 total occurrences, all with raw LLM responses

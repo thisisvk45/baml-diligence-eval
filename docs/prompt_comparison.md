@@ -9,7 +9,7 @@ How transparent is BAML's prompt rendering? Can a user debug what BAML actually 
 BAML provides full prompt visibility via logging:
 
 ```bash
-# Set BAML_LOG=info (or debug) — prints full prompt + response to stderr
+# Set BAML_LOG=info (or debug).prints full prompt + response to stderr
 BAML_LOG=info python main.py
 
 # Output includes:
@@ -38,7 +38,7 @@ Answer in JSON using this schema:
       justification: string,
     }
   ],
-  // 0.0 to 1.0 — fraction of JD requirements covered
+  // 0.0 to 1.0.fraction of JD requirements covered
   coverage_score: float,
   missing_requirements: string[],
 }
@@ -133,7 +133,7 @@ This is the root cause of the schema-echo failure: when Claude 3 Haiku sees `$de
 | Format | Human-readable pseudo-schema | JSON Schema (RFC draft) |
 | Size | ~185 chars, 13 lines | ~1100 chars, 62 lines |
 | Token cost | Lower (~50 fewer tokens) | Higher |
-| `$defs` / `$ref` | None | Yes — causes schema-echo failures |
+| `$defs` / `$ref` | None | Yes.causes schema-echo failures |
 | Field descriptions | Inline comments (`// 0.0 to 1.0`) | Not included (only `title`) |
 | Readability | A human can write this | A machine generated this |
 | LLM confusion risk | Low | High on edge cases (empty input + Haiku) |
@@ -161,7 +161,7 @@ On the EmptyBullets case (no resume data to reason about), Claude 3 Haiku return
 
 It kept the `$defs` and `properties` wrapper from the schema, embedding data inside `properties` instead of at the top level. Pydantic validation fails because it expects `matches` at root, not nested under `properties`.
 
-BAML avoids this entirely because its output format doesn't contain `$defs` or `properties` — it uses a flat, human-readable format that doesn't invite structural mimicry.
+BAML avoids this entirely because its output format doesn't contain `$defs` or `properties`.it uses a flat, human-readable format that doesn't invite structural mimicry.
 
 ## Debuggability Assessment
 
@@ -173,6 +173,6 @@ BAML avoids this entirely because its output format doesn't contain `$defs` or `
 | Diff prompt vs response | All three shown together in log output | Manual |
 | Interactive testing | VS Code playground + in-file `test` blocks | pytest or manual scripts |
 
-**BAML is more debuggable out of the box** — a single env var gives you the full prompt/response/parsed pipeline. With Pydantic, you have full control (you wrote it), but you also have to build all the debugging infrastructure yourself.
+**BAML is more debuggable out of the box**.a single env var gives you the full prompt/response/parsed pipeline. With Pydantic, you have full control (you wrote it), but you also have to build all the debugging infrastructure yourself.
 
 For the VC question "what happens when something goes wrong in production": BAML provides better default observability than the manual approach. The prompt is not a black box.
