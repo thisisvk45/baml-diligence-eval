@@ -9,7 +9,7 @@ A 1,800-call A/B benchmark comparing [BAML](https://docs.boundaryml.com/)'s stru
 | BAML     | **100%**  | **900/900** |
 | Pydantic | **87.1%** | **784/900** |
 
-All **116** Pydantic failures were the same failure mode (**schema-echo**), traceable to the prompt format Pydantic injects via [`model_json_schema()`](https://docs.pydantic.dev/latest/api/base_model/#pydantic.BaseModel.model_json_schema).
+All **116** Pydantic failures were the same failure mode (**schema-echo**), traceable to the prompt format Pydantic injects via [`model_json_schema()`](https://docs.pydantic.dev/latest/api/base_model/#pydantic.BaseModel.model_json_schema). Full analysis: [`docs/FINAL_REPORT.md`](docs/FINAL_REPORT.md).
 
 ## Why This Happens
 
@@ -26,11 +26,12 @@ A single A/B comparison run in about 30 seconds, approximately $0.01:
 ```bash
 git clone https://github.com/thisisvk45/baml-diligence-eval.git
 cd baml-diligence-eval
-python3 -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env  # Add your OPENROUTER_API_KEY
+cp .env.example .env       # Add your OPENROUTER_API_KEY
 baml-cli generate
-python test_harness.py  # Single A/B run, ~30 seconds, ~$0.01
+python test_harness.py     # Single A/B run, ~30 seconds, ~$0.01
 ```
 
 Requires Python 3.11 or later and an [OpenRouter](https://openrouter.ai/) API key with access to `anthropic/claude-3-haiku` and `openai/gpt-4o-mini`.
@@ -135,6 +136,10 @@ Built as part of a technical diligence exercise for [Basis Set Ventures](https:/
 - **JSON Schema specification**: [json-schema.org](https://json-schema.org/specification)
 - **Wilson score interval**: [Wikipedia](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval)
 - **OpenRouter API**: [openrouter.ai/docs](https://openrouter.ai/docs)
+
+## Thesis
+
+> BAML's reliability advantage is not a parsing technology. It is a prompt-engineering opinion encoded into a framework. The moat is not the SAP; the moat is the default.
 
 ## License
 
